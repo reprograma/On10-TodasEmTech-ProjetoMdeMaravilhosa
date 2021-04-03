@@ -287,7 +287,7 @@ li {
     .principal__btn {
         margin: 0;
     }
-}
+  }
   /* --- SECTION mMARAVILHOSA --- */
     
     .maravilhosas__box > div {
@@ -328,7 +328,7 @@ li {
     margin-right: 8px;
   }
 
-}
+
 
 /* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
 
@@ -342,7 +342,7 @@ li {
   }
 
   .navegacao__itens li {
-   font-size: 24px;
+   font-size: 14px;
     margin: 0 16px;
   }
 
