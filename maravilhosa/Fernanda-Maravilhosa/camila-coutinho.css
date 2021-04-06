@@ -1,9 +1,33 @@
 * {
     box-sizing: border-box;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: 0px;
     text-decoration: none;
     color: inherit;
+}
+
+#foto{
+  float: left;
+ 
+}
+.texto1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+
+  color: #63458A;
+}
+
+.texto2{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+
+  color: #63458A;
 }
 
 ul {
@@ -100,10 +124,10 @@ li {
 
 .header {
   min-height: 40px; 
-  height: 500px;
+  height: 650px;
   background: linear-gradient(rgba(255, 0, 255, 0.2),
                               rgba(255, 0, 255, 0.2)),
-            url(../imagens/bg-banner-claro.png);
+            url('../Fernanda-Maravilhosa/img/camila-banner.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -130,6 +154,20 @@ li {
 }
 /* --- SECTION MARAVILHOSAS --- */
 
+.maravilhosas__titulo {
+  font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+  color: #63458a;
+  font-size: 20px;
+  text-align: center;
+  padding: 30px 0px 0px 30px;
+}
+
+.maravilhosas__box {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  color: #63458a;
+}
 
 /* --- FOOTER --- */
 
@@ -269,13 +307,13 @@ li {
 /* --- FOOTER --- */
 
   .rodape {
-  padding-top: 0;
+    padding-top: 0;
   }
 
   .rodape__principal {
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content:space-around;
+    align-items:center;
     width: 100%;
   }
 
