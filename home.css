@@ -288,7 +288,7 @@ li {
         margin: 0;
     }
 }
-  /* --- SECTION mMARAVILHOSA --- */
+    /* --- SECTION mMARAVILHOSA --- */
     
     .maravilhosas__box > div {
         max-width: 74px;
@@ -302,7 +302,7 @@ li {
     }
 
 
-/* --- FOOTER --- */
+  /* --- FOOTER --- */
 
   .rodape {
   padding-top: 0;
@@ -363,7 +363,7 @@ li {
   .maravilhosas__perfil a img {
     width: 280%;
     border-radius: 10px;
-}
+  }
 
 
 }  

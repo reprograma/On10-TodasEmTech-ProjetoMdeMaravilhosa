@@ -126,15 +126,24 @@ li {
 
 .principal__sub {
   font-weight: 300;
-  margin: 10px 0 16px 0;
   font-size: 18px;
+  text-align: center;
+  padding: 20px
   
 }
 
 .introducao{
   display: flex;
-  
+  text-align: center;
+}
 
+.introducao > img{
+  border-radius: 10px;
+  margin-left: 13%;
+}
+
+.introducao > p{
+  max-width: 60%;
 }
 
 
