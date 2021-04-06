@@ -376,12 +376,8 @@ li {
     justify-content: space-between;
   }
 
-  .navegacao__itens {
-    display: none;
-  }
-
   .navegacao__itens li {
-    font-size: 24px;
+    font-size: 15px;
     margin: 0 16px;
   }
 
@@ -421,17 +417,17 @@ li {
 
   .conteudo-principal{
     background-color: white;
-    text-align: left;
     margin: 0 auto;
-    width: 900px;
+    width: 700px;
   }
 
 .título__conteudo{
-    font-size: 25px;
+    font-size: 35px;
     color: #63458a;
     text-align: center; 
     padding: 30px;
     padding-bottom: 20px;
+    padding-right: 70px;
     font-family: 'Roboto Slab';
 }
 
@@ -441,6 +437,7 @@ li {
     display: flex;
     align-items: start;
     justify-content: center;
+    text-align: left;
 }
 
 .foto__dePerfil{
@@ -452,7 +449,7 @@ li {
 .conteudo__sobreMarielle{
     color: #63458a;
     padding-right: 150px;
-    font-size: 15px;
+    font-size: 18px;
     padding-top: 18px;
 }
 
@@ -460,7 +457,7 @@ li {
 
 .frase{
   margin: 0 auto;
-  width: 950px;
+  width: 730px;
 }
 
 .frase__Marielle{
@@ -479,18 +476,18 @@ li {
 
 .conteudo-historia{
   margin: 0 auto;
-  width: 900px;
+  width: 760px;
 }
 
 .titulo__historia{
-    font-size: 25px;
+    font-size: 35px;
     color: #63458a;
     text-align: center; 
     font-family: 'Roboto Slab'
 }
 
 .historia__Marielle{
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
     padding: 15px 50px 15px 50px;;
     text-align: left;
@@ -508,22 +505,20 @@ li {
 .autoria-conteudo{
   background-color: #E4B7E5;
   width: 100%;
-  height: 200px;
-  margin: 10px 0 10px 0;  
+  height: 220px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .foto__autora{
-  max-height: 200px;
-  padding: 20px;
-  border-radius: 25px;
+  max-height: 242px;
 }
 
 .sobre__autora{
   color: #63458a;
-  font-size: 13px;
+  font-size: 16px;
+  padding-left: 20px;
 }
 
 /* --- BTN --- BTN --- BTN*/
@@ -542,7 +537,7 @@ li {
   font-weight: bold;
   padding: 15px;
   border-radius: 5px;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 /* --- FOOTER --- */
@@ -550,15 +545,9 @@ li {
 .rodape {
   background-color: #323534;
   color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .rodape__principal {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   text-align: center;
 }
