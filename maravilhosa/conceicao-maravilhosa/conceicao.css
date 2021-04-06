@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    color: aliceblue;
+    width: 100%;
+    height: 50vh;
+    text-align:right;
+    font-size: 30px;
+    padding: 100px;
+    background-image: url(../../imagens/img-maravilhosa/conceicao-elciele-perfil.jpg);
+    background-position:center;
+}
+.conteudo-principal h2{
+    text-align: center;
+    padding: 35px;
+    color:rgb(85, 17, 153)
+}
+.conteudo-principal-b {
+    display:flex;
+    padding: 70px;
+    text-align:center;
+    color:rgb(85, 17, 153)
+;
+    
+
+}
+.conteudo-principal-c {
+    padding: 40px;
+    width: 400px;
+}
+
+.Frase-curta {
+    font-size: 23px;
+    top: auto;
+}
