@@ -26,6 +26,14 @@ li {
   max-width: 960px;
 }
 
+.foto_texto_autora2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: auto 0px;
+}
+
 /* --- Mobile First--- */
 
 /* NAV  --- NAV  --- NAV */
@@ -101,11 +109,10 @@ li {
 .header {
   min-height: 40px; 
   height: 500px;
-  background: linear-gradient(rgba(255, 0, 255, 0.2),
+  background: linear-gradient(rgba(211, 152, 211, 0.2),
                               rgba(255, 0, 255, 0.2)),
-            url(../imagens/bg-banner-claro.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+            url("../fernanda-andrade/img/fernanda-banner.jpg");
+  background-size:cover;
   display: flex;
   align-items: flex-end;
   text-align: center;
@@ -120,6 +127,7 @@ li {
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 900;
+  text-align: center;
 }
 
 .principal__sub {
@@ -130,6 +138,20 @@ li {
 }
 /* --- SECTION MARAVILHOSAS --- */
 
+.maravilhosas__titulo {
+  font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+  color: #63458a;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px 0px 0px 30px;
+}
+
+.maravilhosas__box {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  color: #63458a;
+}
 
 /* --- FOOTER --- */
 
