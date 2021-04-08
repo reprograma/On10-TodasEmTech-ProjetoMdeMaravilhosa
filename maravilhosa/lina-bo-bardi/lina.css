@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+    font-size: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* BOTAO */
+
+.btn {
+text-transform: uppercase;
+font-weight: bold;
+padding: 1rem;
+border-radius: 5px;
+font-size: 1.2rem;
+}
+  
+.btnRoxo {
+color: white;
+background-color: #C083B9;
+display: block;
+max-width: 200px;
+text-align: center;
+transition: all .5s;
+margin: 0 auto;
+}
+  
+.btnRoxo:hover,
+.btnRoxo:focus {
+transform: translateY(-06px);
+box-shadow: 0 10px 10px rgba(0,0,0,.2);
+background-color: rgb(192, 156, 188);
+}
+  
+.btn center {
+margin: 0 auto;
+}
+
+
+/* MOBILE FIRST */
+
+/* NAV */
+
+.navegacao {
+background-color: #674582;
+box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+padding: 24px;
+z-index: 99; 
+position: fixed;
+width: 100%;
+}
+  
+.navegacaoCaixa {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 90%;
+}
+
+.navegacaoLogo {
+max-width: 200px;
+width: 100%;
+}
+
+.container {
+margin: 0 auto;
+width: 100%;
+max-width: 960px;
+}
+
+.navegacaoItens {
+display: none;
+}
+
+.navegacaoMini {
+display: none;
+}
+
+/* BOTAO */
+
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* HEADER */
+
+.headerCaixa {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    background: center;
+    padding-top: 100px;
+}
+
+.headerImg {
+    object-fit: cover;
+    width: 100%;
+    height: 548px;
+}
+
+.headerTitulo {
+    position: absolute;
+    bottom: 76px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 3.7rem;
+}
+
+/* LINA */
+
+.lina {
+    padding: 0 12.5% 0 12.5%
+}
+
+.linaFonte {
+    font-weight: bold;
+    color: white;
+    background-color: #C083B9;
+}
+
+.linaTitulo {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    color: #63458A;
+    text-align: center;
+    line-height: 3.5rem;
+    margin-top: 3rem;
+}
+
+.linaCaixa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.linaImg {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.linaImg2 {
+    margin-top: 2rem;
+    object-fit: cover;
+    width: 27rem;
+    height: 10rem;
+    object-position: top center;
+}
+
+.linaTexto {
+    color: #63458A;
+    font-size: 0.8rem;
+    vertical-align: top;
+    line-height: 1.3rem;
+    width: 15rem;
+}
+
+.linaCitacao {
+    color: #63458A;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    width: 27rem;
+    border: solid 0.1rem #63458A;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.center {
+    width: 27rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+/* AUTORA */
+
+.autora {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: #E4B7E5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3rem 5rem 3rem 5rem;
+}
+
+.autoraCaixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.autoraImg {
+    width: 95px;
+    height: 95px;
+    border-radius: 2px;
+    object-fit: cover;
+}
+
+.autoraTexto {
+    color: #63458A;
+    font-weight: bold;
+    margin-left: 2rem;
+    line-height: 1.5rem;
+}
+
+/* FOOTER */
+
+.rodape {
+padding-top: 0;
+margin-top: 3rem;
+font-family: 'Montserrat', sans-serif;
+color: white;
+font-size: 1.5rem;
+line-height: 1.8rem;
+text-align: center;
+}
+  
+.rodapeCaixa {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+background-color: #323534;
+}
+  
+.rodapeLogo img {
+max-width: 300px;
+padding-top: 3rem;
+padding-bottom: 3rem
+}
+
+.rodapeNavegacao {
+padding-top: 3rem;
+}
+  
+.rodapeNavegacao > li {
+font-size: 14px;
+}
+
+.rodapeRedes {
+padding-bottom: 3rem;
+}
+
+.rodapeRedes img {
+max-width: 32px;
+margin-right: 8px;
+}
+
+.rodapeCC {
+    background-color: #292A2A;
+    padding: 2.5rem 6rem 2.5rem 6rem;
+}
