@@ -274,3 +274,41 @@ margin-right: 8px;
     background-color: #292A2A;
     padding: 2.5rem 6rem 2.5rem 6rem;
 }
+
+@media screen and (min-width: 768px) {
+
+* {
+font-size: 20px;
+}
+
+.navegacaoCaixa {
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 90%;
+}
+    
+.navegacaoMini {
+display: block;
+}
+
+.linaImg {
+object-fit: cover;
+width: 200px;
+height: 200px;
+border-radius: 5px;
+}
+
+.autoraImg {
+width: 195px;
+height: 195px;
+border-radius: 5px;
+object-fit: cover;
+}
+
+.headerTitulo {
+position: absolute;
+top: 500px;
+}
+
+}
