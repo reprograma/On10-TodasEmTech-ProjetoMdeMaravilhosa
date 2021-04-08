@@ -111,8 +111,8 @@ li {
   height: 500px;
   background: linear-gradient(rgba(211, 152, 211, 0.2),
                               rgba(255, 0, 255, 0.2)),
-            url("../fernanda-andrade/img/fernanda-banner.jpg");
-  background-size:cover;
+            url("../fernanda-andrade/img/fernanda1.jpg");
+  background-size:contain;
   display: flex;
   align-items: flex-end;
   text-align: center;

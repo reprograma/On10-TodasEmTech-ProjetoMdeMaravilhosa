@@ -23,7 +23,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 25px;
-  padding: 5rem;
+  padding: 4rem;
   
   color: #63458A;
 }
@@ -35,8 +35,53 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 25px;
+  padding: 4rem;
+  text-align: justify;
 
   color: #63458A;
+}
+
+.bloco_texto{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 25px;
+padding: 3rem 2rem;
+text-align: justify;
+color: #63458a;
+
+border: 2px solid #63458A;
+box-sizing: border-box;
+}
+
+.nav_bloco_texto{
+  padding: 5rem 2rem;
+}
+
+.nav_autora{
+  background-color:#674582;
+  width: 100%;
+  padding: 3rem 2rem;
+}
+
+.container2{
+  position: relative;
+}
+
+#texto{
+  position: absolute;
+  font-size: 18px;
+  left: 250px;
+  top: 135px;
+}
+
+.foto_nav_autora{
+  width: 25%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 ul {
@@ -63,8 +108,8 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
-  padding: auto 0px;
+  width: 100%;
+  padding: 5rem;
 }
 
 /* --- Mobile First--- */
@@ -144,7 +189,7 @@ li {
   height: 650px;
   background: linear-gradient(rgba(255, 0, 255, 0.2),
                               rgba(255, 0, 255, 0.2)),
-            url('../Fernanda-Maravilhosa/img/camila-banner.jpg');
+            url('../Fernanda-Maravilhosa/img/foto-teste-sobre.png');
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
