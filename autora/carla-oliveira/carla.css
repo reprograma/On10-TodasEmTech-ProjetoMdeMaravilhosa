@@ -107,7 +107,6 @@ p {
     margin-top: 20px;
     margin-bottom: 30px;
     width: 100%;
-    b
     
 }
 
@@ -458,18 +457,22 @@ p {
     }
 
     .principal__titulo{
-        font-size:80px;
+        font-size:70px;
+        margin-left: 295px;
     }
     
-    .sobre .titulo_nome{
-        font-size: 30px;
+    .titulo_nome{
+        margin-left: 295px;
     }
 
-    .sobre p{
-        font-size: 25px;
+
+    .sobre .titulo_nome{
+        font-size: 30px;
+        margin-left: 180px;
     }
+
     .carla-photo {
-        height: 250px;
+        height: 300px;
         border-radius: 5px;
         margin-right: 15px;
     }
