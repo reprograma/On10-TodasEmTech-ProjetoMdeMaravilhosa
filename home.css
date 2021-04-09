@@ -117,9 +117,16 @@ li {
 }
 
 .principal__titulo {
+  display: flex;
+  justify-content: center;
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 900;
+}
+
+h1 {
+  display: block;
+  align-content: center;
 }
 
 .principal__sub {
@@ -128,7 +135,7 @@ li {
   font-size: 18px;
   
 }
-/* --- SECTION MARAVILHOSAS --- */
+/* --- SECTION MARAVILHOSA --- */
 
 .maravilhosas__titulo {
   font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
@@ -288,7 +295,7 @@ li {
         margin: 0;
     }
 }
-  /* --- SECTION mMARAVILHOSA --- */
+  /* --- SECTION MARAVILHOSA --- */
     
     .maravilhosas__box > div {
         max-width: 74px;
@@ -328,7 +335,6 @@ li {
     margin-right: 8px;
   }
 
-}
 
 /* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
 
