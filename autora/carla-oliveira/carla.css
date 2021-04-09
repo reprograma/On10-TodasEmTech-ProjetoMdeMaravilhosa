@@ -24,7 +24,7 @@ li {
     margin: 0 auto;
     width: 100%;
     max-width: 960px;
-    }
+}
 
 /* --- Mobile First--- */
 /* NAV  --- NAV  --- NAV */
@@ -67,8 +67,8 @@ li {
 /* HEADER  --- HEADER  --- HEADER */
 
 .header {
-    min-height:40px;
-    height:800px;
+    min-height: 40px;
+    height: 800px;
     background: url(../carla-oliveira/imagens/Carla-banner.gif);
     background-size: cover;
     background-repeat: no-repeat;
@@ -86,71 +86,115 @@ li {
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 900;
-    text-shadow: 2px 2px 2px  #df32a5;
+    text-shadow: 2px 2px 2px #df32a5;
 }
 
 /* MAIN  --- MAIN  --- MAIN*/
-main{
-  margin-right:30px;
-  margin-left:30px;
+main {
+    margin-right: 30px;
+    margin-left: 30px;
+    
 }
 
 p {
-  line-height:2;
-  color: #652995;
-  font-size:12px ;
+    line-height: 2;
+    color: #652995;
+    font-size: 12px;
+    margin-bottom: 15px;
 }
 
 .sobre {
     margin-top: 20px;
     margin-bottom: 30px;
- 
-}
-
-.sobre_titulo{
-    display:flex;
-    flex-direction: row;
-}
-
-.titulo_nome{
-    font-size:18px;
-    font-weight:600;
-    margin-left:20px;
+    width: 100%;
     
 }
 
+.sobre_titulo {
+    display: flex;
+    flex-direction: row;
+    margin-bottom:30px;
+   
+}
 
+.titulo_nome {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+}
 
+.parte-1 {
+    display: flex;
+    width: 100%;
+    font-size:8px;
+}
 
+.linha {
+    width: 200px;
+    background-color: #652995;
+    height: 003px;
+}
 
-.historia {
+.projeto {
     margin-bottom: 30px;
     width: 100%;
+ 
 }
 
-
-
-.autora {
-    padding: 35px;
-    background-color: #c083b9;
-    color: #652995;
-    font-size: 12px;
-    text-align: center;
-    font-weight: bolder;
+.turma-ft {
+    width: 100%;
+    min-height: 40px;
+    margin-top: 30px;
     margin-bottom: 30px;
-    align-items: center;
-    display: flex;
+    text-align: center;
 }
 
-.carla-photo{
-  width: 120px;
-    height: 110px;
+.carla-photo {
+    width: 94px;
+    height: 94px;
     border-radius: 5px;
     margin-right: 15px;
 }
 
-.linkedin:hover{
-  color: #c6a2e4;
+.parte-2{
+    margin:30px;
+}
+
+#grace{color: #5c0d81;
+    font-weight: bolder;
+
+}
+
+.redes{
+    margin:30px;
+    color: #5c0d81;
+    font-weight: bolder;
+}
+
+.linha{
+    margin:50px ;
+}
+
+/* OUTRAS MARAVILHOSAS */
+
+.maravilhosas {
+  display: flex;
+  flex-direction: column;
+  margin-right:100px;
+  margin-left:50px; 
+   
+}
+
+.maravilhosas a {
+    margin-left:50px;
+    margin-bottom:20px; 
+}
+
+.maravilhosa-ft {
+    width: 200px;
+    height: 200px;
+    margin-top:30px;
+   
 }
 
 /* --- BOTAO --- */
@@ -161,11 +205,12 @@ p {
     border-radius: 5px;
     font-size: 14px;
     text-align: center;
+    margin:50px;
 }
 
 .btn_roxo {
     color: white;
-    background-color: #ee35a7;
+    background-color: #682a85;
     display: block;
     max-width: 200px;
     transition: all 0.5s;
@@ -235,141 +280,225 @@ p {
 
 /*  --- TABLET --- --- TABLET --- */
 @media (min-width: 768px) {
+    /* --- NAV --- */
+    .navegacao__itens {
+        position: static;
+        display: flex;
+        padding: 0;
+        width: auto;
+    }
 
-  /* --- NAV --- */
-  .navegacao__itens {
-    position: static;
-    display: flex;
-    padding: 0;
-    width: auto;
-  }
+    .navegacao__nav {
+        color: #fff;
+        margin-bottom: 0;
+    }
 
-  .navegacao__nav { 
-    color: #fff;
-    margin-bottom: 0;
-  }
-    
-  .navegacao__itens ul {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    align-items: center;
-    text-align: center;
-  }
-    
+    .navegacao__itens ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
     .navegacao__itens li {
-    font-size: 14px;
-    margin: 0 9px;
-  }
-
-  .navegacao__itens.ativo {
-    display: block;
-    right: 0;
-    top: 85px;
-    width: 100%;
-    background-color: #674582;
-    text-align: center;
-    padding: 48px 0;
-    transition: right 1s;
-  }
-
-  .navegacao__itens li > a {
-    transition: all .2s;
-  }
-
-  .navegacao__itens li > a:hover {
-    color: #C083B9;
-  }
-    
-  .navegacao__menu-hamburguer {
-    display: none;
-  }
-
-  /*HEADER*/
-  .principal__titulo {
-    color: #ecd2e9;
-    text-transform: uppercase;
-    font-size: 50px;
-    font-weight: 900;
-    text-shadow: 2px 2px 2px  #df32a5;
-}
-
-  /* MAIN  --- MAIN  --- MAIN*/
-
-  main{
-    margin-right:15px;
-    margin-left:15px;
-  }
-
-  .autora {
-    padding: 35px;
-    background-color: #c083b9;
-    color: #652995;
-    font-size: 25px;
-    text-align: center;
-    font-weight: bolder;
-    margin-bottom: 30px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-
-}
-
-  .carla-photo{
-     width: 250px;
-    height: 250px;
-    border-radius: 5px;
-    margin-right: 15px;
-
-  /* --- FOOTER --- */
-
-  .rodape {
-    padding-top: 0;
+        font-size: 14px;
+        margin: 0 9px;
     }
-  
+
+    .navegacao__itens.ativo {
+        display: block;
+        right: 0;
+        top: 85px;
+        width: 100%;
+        background-color: #674582;
+        text-align: center;
+        padding: 48px 0;
+        transition: right 1s;
+    }
+
+    .navegacao__itens li > a {
+        transition: all 0.2s;
+    }
+
+    .navegacao__itens li > a:hover {
+        color: #c083b9;
+    }
+
+    .navegacao__menu-hamburguer {
+        display: none;
+    }
+
+    /*HEADER*/
+    .principal__titulo {
+        color: #ecd2e9;
+        text-transform: uppercase;
+        font-size: 50px;
+        font-weight: 900;
+        text-shadow: 2px 2px 2px #df32a5;
+    }
+
+    /* MAIN  --- MAIN  --- MAIN*/
+
+    main {
+        margin-right: 15px;
+        margin-left: 15px;
+
+    }
+
+    .titulo_nome{
+        font-size:30px;
+        margin-left:200px;
+
+    }
+
+    .sobre p{
+        font-size:20px; 
+        display:flex;
+    }
+
+    .carla-photo {
+        width: 350px;
+        height: 150px;
+        border-radius: 5px;
+        margin-right: 15px;
+    }
+
+    .parte-2{
+        margin-left:250px;
+       
+    }
+
+    .redes{
+        margin-left:310px;
+        font-size:18px;
+    }
+
+    .linha{
+        width:360px;
+        height:4px;
+        margin-left:280px;
+    }
+
+    /*PROJETO--------------------PROJETO*/
+
+    .projeto p{
+        font-size:22px;
+        margin-bottom:40px;
+    }
+
+    .maravilhosas{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+               
+    }
+
+    .m-foto{
+        margin-left:20px;
+    }
+
+    figcaption{
+        margin-bottom:30px;
+        margin-left:250px ;
+        font-size:18px ;
+    }
+
+ 
+    /* --- FOOTER --- */
+
+    .rodape {
+        padding-top: 0;
+    }
+
     .rodape__principal {
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
-      width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
     }
-  
+
     .rodape__logo img {
-    max-width: 300px;
+        max-width: 300px;
     }
-  
+
     .rodape__navegacao > li {
-     font-size: 14px;
+        font-size: 14px;
     }
-  
+
     .rodape__redes-sociais img {
-      max-width: 32px;
-      margin-right: 8px;
+        max-width: 32px;
+        margin-right: 8px;
     }
-
-
-
-    
 }
 
 /* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
 @media (min-width: 1200px) {
-  .navegacao__box {
-    max-width: 80%;
-  }
+    .navegacao__box {
+        max-width: 80%;
+    }
 
-  .navegacao__itens li {
-   font-size: 24px;
-    margin: 0 16px;
-  }
+    .navegacao__itens li {
+        font-size: 24px;
+        margin: 0 16px;
+    }
+
+    .principal__sub {
+        font-size: 18px;
+        padding: 0px 400px 0px 0px;
+    }
+
+
+    /*MAIN ------------------MAIN-----------MAIN*/
+    main {
+        margin-right: 15px;
+        margin-left: 0px;
+
+    }
+
+    .principal__titulo{
+        font-size:80px;
+    }
     
-  .principal__sub {
-    font-size: 18px;
-    padding: 0px 400px 0px 0px;
-  }
+    .sobre .titulo_nome{
+        font-size: 30px;
+    }
 
-  .maravilhosas__perfil a img {
-    width: 280%;
-    border-radius: 10px;
-}
+    .carla-photo {
+        height: 250px;
+        border-radius: 5px;
+        margin-right: 15px;
+    }
+/*Projeto--------------*/
+    .projeto p{
+        font-size:22px;
+        margin-bottom:40px;
+    }
+
+    .turma-ft{
+        margin-top:40px;
+        margin-bottom:5px;
+    }
+
+    figcaption{
+        margin-bottom:40px;
+        margin-left:350px ;
+        font-size:18px ;
+    }
+
+    .maravilhosas{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+    .m-foto{
+        margin-left:80px;
+    }
+
+    .maravilhosas__perfil a img {
+        width: 280%;
+        border-radius: 10px;
+    }
 }
