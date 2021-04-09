@@ -18,7 +18,7 @@
 
 
 .texto1{
-  font-family: Montserrat;
+
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -30,7 +30,7 @@
 
 
 .texto2{
-  font-family: Montserrat;
+
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -42,17 +42,17 @@
 }
 
 .bloco_texto{
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 25px;
-padding: 3rem 2rem;
-text-align: justify;
-color: #63458a;
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 25px;
+ padding: 3rem 2rem;
+ text-align: justify;
+ color: #63458a;
 
-border: 2px solid #63458A;
-box-sizing: border-box;
+ border: 2px solid #63458A;
+ box-sizing: border-box;
 }
 
 .nav_bloco_texto{
@@ -60,28 +60,56 @@ box-sizing: border-box;
 }
 
 .nav_autora{
-  background-color:#674582;
+  background-color: #674582;
   width: 100%;
-  padding: 3rem 2rem;
+  padding: 2rem 1rem;
 }
 
 .container2{
-  position: relative;
+  width: 200px;
+  height: 200px;
+  margin:auto;
+
+  background: url("../Fernanda-Maravilhosa/img/autora_fernanda1.jpg");
 }
 
-#texto{
-  position: absolute;
-  font-size: 18px;
+#texto_1{
+  text-align: center;
+  font-size: 17px;
   left: 250px;
   top: 135px;
+  font-family: Montserrat;
+  font-style: normal;
+  color: white;
+
 }
 
-.foto_nav_autora{
-  width: 25%;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+#texto_2{
+  text-align: center;
+  font-size: 17px;
+  left: 250px;
+  top: 135px;
+  font-family: Montserrat;
+  font-style: normal;
+  color: white;
+}
+
+.botao_final {
+  width: 100%;
+  max-width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 40px;
+  align-items: center;
+}
+
+.botao_titulo {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
 }
 
 ul {
@@ -351,6 +379,10 @@ li {
     .principal__btn {
         margin: 0;
     }
+
+    .botao_titulo {
+      font-size: 28px;
+  }
 }
   /* --- SECTION mMARAVILHOSA --- */
     
@@ -420,6 +452,15 @@ li {
   .principal__sub {
     font-size: 18px;
     padding: 0px 400px 0px 0px;
+  }
+
+  .botao_final {
+    max-width: 650px;
+  }
+
+  .botao_titulo {
+    font-size: 26px;
+    padding: 40px 200px 0px px;
   }
 
   .maravilhosas__perfil a img {
