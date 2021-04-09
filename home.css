@@ -43,6 +43,10 @@ li {
   max-width: 200px;
 }
 
+.img-responsive{
+  max-width: 100%;
+}
+
 .navegacao__box {
   display: flex;
   align-items: center;
@@ -57,7 +61,7 @@ li {
   max-width: 960px;
 }
 
-.navegacao__itens {
+.navegacao__itens{
   display: none;
 }
 
@@ -365,6 +369,36 @@ li {
     border-radius: 10px;
 }
 
+.navegacao__menu-hamburguer img {
+  display: none;
+}
 
-}  
+/* --- FOOTER --- */
+
+ .rodape {
+  padding-top: 0;
+  }
+
+  .rodape__principal {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .rodape__logo img {
+  max-width: 300px;
+  }
+
+  .rodape__navegacao > li {
+   font-size: 14px;
+  }
+
+  .rodape__redes-sociais img {
+    max-width: 32px;
+    margin-right: 8px;
+  }
+
+}
+  
 
