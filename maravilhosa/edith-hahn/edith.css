@@ -79,7 +79,50 @@ li {
   width: 180px;
 }
 
-/* --- FOOTER --- */
+/* --- CONTEÚDO MAIN --- */
+
+main {
+  padding: 5%;
+  color: #674582;;
+}
+
+/* PERFIL EDITH */
+
+.titulo_perfil {
+  font-size: 18px;
+  padding-bottom: 5%;
+  text-align: center;
+  font-weight: bold;
+}
+.conteudo_perfil {
+  display: flex;
+}
+
+.foto_perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+}
+
+.texto_perfil {
+  font-size: 11px;
+  text-align:left;
+  padding: 10px;
+}
+
+.destaque_perfil {
+  border-style: solid;
+  border-width: 2px;
+  font-size: 11px;
+  margin-top: 30px;
+}
+
+.destaque_texto {
+  padding: 20px;
+  font-weight: bold;
+}
+
+/* FOOTER */
 
 .rodape {
   background-color: #323534;
@@ -203,6 +246,31 @@ li {
   .img-responsive {
     width: 200px;
   }
+
+  /* MAIN */
+
+  main {
+    padding: 5% 20%;
+  }
+
+  .foto_perfil {
+    width: 150px;
+    height: 150px;
+  }
+
+  .titulo_perfil {
+    font-size: 24px;
+  }
+  
+  .texto_perfil {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .destaque_texto {
+    font-size: 16px;
+    line-height: 20px;
+  }
   
   /* --- FOOTER --- */
   .rodape {
@@ -268,5 +336,27 @@ li {
     width: 200px;
   }
 
+  main {
+    padding: 5% 20%;
+  }
+
+  .foto_perfil {
+    width: 200px;
+    height: 200px;
+  }
+
+  .titulo_perfil {
+    font-size: 24px;
+  }
+  
+  .texto_perfil {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .destaque_texto {
+    font-size: 18px;
+    line-height: 30px;
+  }
 }  
 
