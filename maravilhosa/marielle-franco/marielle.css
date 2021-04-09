@@ -79,6 +79,7 @@ li {
   background-image: url(img/marielle-banner.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   align-items: flex-end;
   justify-content:center;
@@ -282,7 +283,7 @@ li {
   }
     
     .navegacao__itens li {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0 9px;
   }
 
@@ -312,7 +313,7 @@ li {
   /* HEADER  --- HEADER  --- HEADER */
 
  .header {
-  min-height: 75vh;
+  min-height: 50vh;
   height: 360px;
   background-image: url(img/marielle-banner.png);
   background-size: cover;
@@ -341,7 +342,7 @@ padding: 40px
 }
 
 .título__conteudo{
-  font-size: 25px;
+  font-size: 28px;
   color: #63458a;
   text-align: center; 
   padding: 30px;
@@ -368,7 +369,7 @@ padding: 40px
 .conteudo__sobreMarielle{
   color: #63458a;
   padding-right: 150px;
-  font-size: 17px;
+  font-size: 19px;
   padding-top: 18px;
 }
 
@@ -406,7 +407,7 @@ width: 760px;
 }
 
 .historia__Marielle{
-  font-size: 17px;
+  font-size: 19px;
   text-align: center;
   padding: 15px 50px 15px 50px;;
   text-align: left;
@@ -573,6 +574,7 @@ padding: 10px;
     align-items: flex-end;
     justify-content:center;
     color: #fff;
+    background-position: unset;
   }
 
  .principal__titulo {

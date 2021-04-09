@@ -291,7 +291,7 @@ hr{
   }
     
     .navegacao__itens li {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0 9px;
   }
 
@@ -459,7 +459,7 @@ hr{
   font-weight: bold;
   padding: 15px;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 /* --- FOOTER --- */
@@ -513,7 +513,7 @@ hr{
 .rodape__cc {
   width: 100%;
   background-color: #292A2A;
-  font-size: 14px;
+  font-size: 12px;
   opacity: 0.5;
   text-align: center;
   padding: 10px;
@@ -590,16 +590,16 @@ hr{
     background-color: white;
     margin: 0 auto;
     width: 700px;
-    padding-bottom: 90px;
+    padding-bottom: 40px;
   }
 
 .título__conteudo{
-    font-size: 35px;
+    font-size: 27px;
     color: #63458a;
     text-align: center; 
     padding: 30px;
     padding-bottom: 20px;
-    padding-right: 70px;
+    padding-right: 50px;
     font-family: 'Roboto Slab';
 }
 
@@ -621,7 +621,7 @@ hr{
 .conteudo__sobreAutora{
     color: #63458a;
     padding-right: 150px;
-    font-size: 18px;
+    font-size: 17px;
     padding-top: 18px;
 }
 
@@ -633,16 +633,16 @@ hr{
 }
 
 .titulo__Mdemaravilhosa{
-    font-size: 35px;
+    font-size: 28px;
     color: #63458a;
     text-align: center; 
     font-family: 'Roboto Slab';
-    padding-top: 40px;
+    padding-top: 45px;
     padding-bottom: 20px;
 }
 
 .historia__Mdemaravilhosa{
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
     padding: 30px 50px 30px 50px;;
     text-align: left;
@@ -681,7 +681,7 @@ hr{
 
 .nome__outrasMaravilhosas{
   color: #63458a;
-  font-size: 16px;
+  font-size: 18px;
   padding-left: 20px;
 }
 
