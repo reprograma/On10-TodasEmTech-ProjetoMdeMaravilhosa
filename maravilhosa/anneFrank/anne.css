@@ -110,6 +110,9 @@ li {
   text-align: justify;
   padding-left: 5%;
   color: #674582;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .section_two {
@@ -144,14 +147,14 @@ li {
   padding: 10% 0 10% 0;
 }
 
-.section_five{
-  padding: 8% 10% 8% 10%;
+.section_four{
+  padding: 0% 10% 0% 10%;
   background-color: #E4B7E5;
 }
 
 .sobre_autora {
   display: flex;
-  justify-content: space-around;
+  justify-content:space-around;
   align-items: center;
 }
 
@@ -167,7 +170,7 @@ li {
   font-weight: bold;
 }
 
-.section_six {
+.section_five {
   padding: 10%;
 }
 
@@ -195,15 +198,6 @@ li {
   box-shadow: 0 10px 10px rgba(0,0,0,.2);
   background-color: rgb(192, 156, 188);
 }
-
-
-
-
-
-
-
-
-
 
 
 /* --- FOOTER --- FOOTER --- FOOTER ---*/
@@ -262,22 +256,202 @@ li {
 @media (min-width: 768px) {
 
 /* --- NAV --- NAV --- NAV ---*/
+  .navegacao__itens {
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+  }
 
+  .navegacao__nav { 
+    color: #fff;
+    margin-bottom: 0;
+  }
 
-/* --- HEADER --- HEADER --- HEADER ---*/
+  .navegacao__itens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
 
+  .navegacao__itens li {
+    font-size: 14px;
+    margin: 0 9px;
+  }
 
-/* --- SECTION MARAVILHOSA (ANNE FRANK) --- */
+  .navegacao__itens.ativo {
+    display: block;
+    right: 0;
+    top: 85px;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 48px 0;
+    transition: right 1s;
+  }
 
+  .navegacao__itens li > a {
+    transition: all .2s;
+  }
 
-/* --- FOOTER --- FOOTER --- FOOTER ---*/
+  .navegacao__itens li > a:hover {
+    color: #C083B9;
+  }
+    
+  .navegacao__menu-hamburguer {
+    display: none;
+  }
 
+  /* --- HEADER --- HEADER --- HEADER ---*/
+  .header {
+    min-height: 75vh;
+    padding: 10px 100px;
+  }  
+
+  /* --- SECTION MARAVILHOSA (ANNE FRANK) --- */
+  .titulos {
+    font-size: 30px;
+  }
+
+  .historia {
+    padding-bottom: 5%;
+  }
+
+  .paragrafo_one {
+    font-size: 15px;
+  }
+
+  .paragrafo_two {
+    font-size: 15px;
+  }
+
+  .paragrafo_three {
+    font-size: 15px;
+  }
+
+  .sobre_patricia {
+    font-size: 16px;
+  }
+
+  .btn {
+    padding: 18px ;
+    font-size: 18px;
+  }
+
+  .btn_roxo {
+    max-width: 300px;
+  }
+
+  /* --- FOOTER --- FOOTER --- FOOTER ---*/
+  .rodape {
+    padding-top: 0;
+    }
+
+  .rodape__principal {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .rodape__logo img {
+    max-width: 300px;
+  }
+
+  .rodape__navegacao > li {
+    font-size: 14px;
+  }
+
+  .rodape__redes-sociais img {
+    max-width: 32px;
+    margin-right: 8px;
+  }
 }
-
-
 
 /* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- */
 
 @media (min-width: 1440px) {
+  .navegacao__box {
+    max-width: 80%;
+  }
 
+  .header {
+    min-height: 120vh;
+  }
+
+  .navegacao__itens li {
+    font-size: 20px;
+    margin: 0 16px;
+   }
+
+   .principal {
+    margin-bottom: 250px;
+  }
+
+  .principal__titulo {
+    font-size: 50px;
+    padding: 40px 200px 0px px;
+  }
+
+  .titulos {
+    font-size: 30px;
+    padding-bottom: 7%;
+  }
+
+  .section_one {
+    padding: 2% 20% 5% 20%;
+  }
+
+  .section_two {
+    padding: 0 20% 5% 20%;
+  }
+
+  .section_three {
+    padding: 0 20% 5% 20%;
+  }
+
+  .section_four{
+    padding: 0% 20% 0% 20%;
+    background-color: #E4B7E5;
+  }
+
+  .section_five {
+    padding: 5%;
+  }
+
+  .paragrafo_one {
+    font-size: 20px;;
+  }
+
+  .paragrafo_two {
+    font-size: 20px;
+  }
+
+  .paragrafo_three {
+    font-size: 20px;
+  }
+
+  .anne_historia {
+    padding: 5% 0 5% 0;
+  }
+
+  .historia {
+    padding-bottom: 2%;
+    padding-right: 78%;
+  }
+
+  .sobre_patricia {
+    font-size: 20px;
+  }
+
+  .btn {
+    padding: 25px ;
+    font-size: 25px;
+  }
+
+  .btn_roxo {
+    max-width: 500px;
+  }
 }
