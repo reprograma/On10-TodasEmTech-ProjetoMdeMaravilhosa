@@ -107,6 +107,7 @@ p {
     margin-top: 20px;
     margin-bottom: 30px;
     width: 100%;
+    b
     
 }
 
@@ -464,6 +465,9 @@ p {
         font-size: 30px;
     }
 
+    .sobre p{
+        font-size: 25px;
+    }
     .carla-photo {
         height: 250px;
         border-radius: 5px;
