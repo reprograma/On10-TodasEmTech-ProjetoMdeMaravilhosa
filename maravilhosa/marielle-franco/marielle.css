@@ -342,7 +342,7 @@ padding: 40px
 }
 
 .título__conteudo{
-  font-size: 28px;
+  font-size: 25px;
   color: #63458a;
   text-align: center; 
   padding: 30px;
@@ -369,7 +369,7 @@ padding: 40px
 .conteudo__sobreMarielle{
   color: #63458a;
   padding-right: 150px;
-  font-size: 19px;
+  font-size: 17px;
   padding-top: 18px;
 }
 
@@ -400,15 +400,14 @@ width: 760px;
 }
 
 .titulo__historia{
-  font-size: 28px;
+  font-size: 27px;
   color: #63458a;
   text-align: center; 
   font-family: 'Roboto Slab';
 }
 
 .historia__Marielle{
-  font-size: 19px;
-  text-align: center;
+  font-size: 17px;
   padding: 15px 50px 15px 50px;;
   text-align: left;
   color: #63458a;

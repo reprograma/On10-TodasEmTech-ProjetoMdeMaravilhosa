@@ -599,7 +599,7 @@ hr{
     text-align: center; 
     padding: 30px;
     padding-bottom: 20px;
-    padding-right: 50px;
+    padding-right: 70px;
     font-family: 'Roboto Slab';
 }
 
@@ -633,7 +633,7 @@ hr{
 }
 
 .titulo__Mdemaravilhosa{
-    font-size: 28px;
+    font-size: 35px;
     color: #63458a;
     text-align: center; 
     font-family: 'Roboto Slab';
@@ -642,7 +642,7 @@ hr{
 }
 
 .historia__Mdemaravilhosa{
-    font-size: 17px;
+    font-size: 18px;
     text-align: center;
     padding: 30px 50px 30px 50px;;
     text-align: left;
@@ -652,7 +652,6 @@ hr{
 .foto__Alunasreprograma{
     width: 100%;
     padding: 15px 50px 15px 50px;
-
 }
 
 .titulo__alunas{
@@ -681,7 +680,7 @@ hr{
 
 .nome__outrasMaravilhosas{
   color: #63458a;
-  font-size: 18px;
+  font-size: 16px;
   padding-left: 20px;
 }
 
