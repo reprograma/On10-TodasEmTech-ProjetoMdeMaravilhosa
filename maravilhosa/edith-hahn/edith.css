@@ -50,7 +50,7 @@ li {
 
 .header {
   min-height: 40px; 
-  height: 500px;
+  height: 75vh;
   background: linear-gradient(rgba(255, 0, 255, 0.2),
                               rgba(255, 0, 255, 0.2)),
             url(img/bg-edith.png);
@@ -105,15 +105,16 @@ main {
 }
 
 .texto_perfil {
-  font-size: 11px;
+  font-size: 12px;
   text-align:left;
-  padding: 10px;
+  padding: 0 10px;
+  line-height: 20px;
 }
 
 .destaque_perfil {
   border-style: solid;
   border-width: 2px;
-  font-size: 11px;
+  font-size: 12px;
   margin-top: 30px;
 }
 
@@ -122,6 +123,30 @@ main {
   font-weight: bold;
 }
 
+/* HISTORIA EDITH */
+
+.titulo_historia {
+  font-size: 18px;
+  padding: 5% 0;
+  text-align: left;
+  font-weight: bold;
+}
+
+.texto_historia {
+  font-size: 12px;
+  text-align: left;
+  padding: 0 10px;
+  line-height: 20px;
+}
+
+.texto_historia p {
+  padding-bottom: 5%;
+}
+
+.imagem_historia {
+  width: 100%;
+  padding-bottom: 5%;
+}
 /* FOOTER */
 
 .rodape {
@@ -174,7 +199,7 @@ main {
 
 /*  --- TABLET --- */
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
   /* --- NAV --- */
   .navegacao__itens {
     position: static;
@@ -226,7 +251,6 @@ main {
 
   /* --- HEADER --- */
   .header {
-    min-height: 75vh;
     text-align: left;
      padding: 10px 100px;
   }
@@ -263,13 +287,17 @@ main {
   }
   
   .texto_perfil {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
   }
 
   .destaque_texto {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
+  }
+  
+  .texto_historia {
+    font-size: 14px;
   }
   
   /* --- FOOTER --- */
@@ -297,21 +325,9 @@ main {
    }
 
 }
-/* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
+/* --- DESKTOP--- */
 
-@media (min-width: 1440px) {
-  .navegacao__box {
-    max-width: 80%;
-  }
-
-  .header {
-    min-height: 90vh;
-  }
-
-  .navegacao__itens li {
-   font-size: 24px;
-    margin: 0 16px;
-  }
+@media (min-width: 1200px) {
 
   .principal {
     max-width: 650px;
@@ -340,11 +356,6 @@ main {
     padding: 5% 20%;
   }
 
-  .foto_perfil {
-    width: 200px;
-    height: 200px;
-  }
-
   .titulo_perfil {
     font-size: 24px;
   }
@@ -358,5 +369,11 @@ main {
     font-size: 18px;
     line-height: 30px;
   }
+
+  .texto_historia{
+  font-size: 18px;
+  line-height: 30px;
+  }
+
 }  
 
