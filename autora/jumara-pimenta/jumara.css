@@ -348,11 +348,11 @@ hr{
     background-color: white;
     margin: 0 auto;
     width: 700px;
-    padding-bottom: 90px;
+    padding-bottom: 25px;
   }
 
 .título__conteudo{
-    font-size: 35px;
+    font-size: 25px;
     color: #63458a;
     text-align: center; 
     padding: 30px;
@@ -379,7 +379,7 @@ hr{
 .conteudo__sobreAutora{
     color: #63458a;
     padding-right: 150px;
-    font-size: 18px;
+    font-size: 17px;
     padding-top: 18px;
 }
 
@@ -391,7 +391,7 @@ hr{
 }
 
 .titulo__Mdemaravilhosa{
-    font-size: 35px;
+    font-size: 27px;
     color: #63458a;
     text-align: center; 
     font-family: 'Roboto Slab';
@@ -400,7 +400,7 @@ hr{
 }
 
 .historia__Mdemaravilhosa{
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
     padding: 30px 50px 30px 50px;;
     text-align: left;

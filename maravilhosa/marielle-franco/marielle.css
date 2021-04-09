@@ -309,43 +309,212 @@ li {
     display: none;
   }
 
-  /* --- HEADER --- */
-   .header {
-      min-height: 75vh;
-      text-align: left;
-      padding: 10px 100px;
-    }
+  /* HEADER  --- HEADER  --- HEADER */
 
-    .principal__titulo {
-        font-size: 28px;
-    }
+ .header {
+  min-height: 75vh;
+  height: 360px;
+  background-image: url(img/marielle-banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content:center;
+  color: #fff;
+  text-align: left;
+  padding: 10px 100px;
+}
 
+.principal__titulo {
+text-transform: uppercase;
+font-size: 28px;
+text-align: center;
+padding: 40px
+}
+
+/* --- CONTEÚDO PRINCIPAL --- CONTEÚDO PRINCIPAL --- CONTEÚDO PRINCIPAL */
+
+.conteudo-principal{
+  background-color: white;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.título__conteudo{
+  font-size: 25px;
+  color: #63458a;
+  text-align: center; 
+  padding: 30px;
+  padding-bottom: 20px;
+  padding-right: 70px;
+  font-family: 'Roboto Slab';
+}
+
+.artigo__sobreMarielle{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  text-align: left;
+}
+
+.foto__dePerfil{
+  max-height: 180px;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.conteudo__sobreMarielle{
+  color: #63458a;
+  padding-right: 150px;
+  font-size: 17px;
+  padding-top: 18px;
+}
+
+/* --- FRASE MARIELLE --- FRASE MARIELLE --- FRASE MARIELLE */
+
+.frase{
+margin: 0 auto;
+width: 730px;
+}
+
+.frase__Marielle{
+  color: #63458a;
+  font-size: 17px;
+  font-family: 'Montserrat';
+  border: 1px solid #63458a;
+  text-align: center;
+  margin: 30px;
+  margin-top: 5px;
+  padding: 30px;
+  line-height: 30px;
+}
+
+/* --- HISTÓRIA --- HISTÓRIA --- HISTÓRIA */
+
+.conteudo-historia{
+margin: 0 auto;
+width: 760px;
+}
+
+.titulo__historia{
+  font-size: 28px;
+  color: #63458a;
+  text-align: center; 
+  font-family: 'Roboto Slab';
+}
+
+.historia__Marielle{
+  font-size: 17px;
+  text-align: center;
+  padding: 15px 50px 15px 50px;;
+  text-align: left;
+  color: #63458a;
+}
+
+.foto__historiaMarielle{
+  width: 100%;
+  padding: 15px 50px 15px 50px;
+
+}
+
+/* --- AUTORIA --- AUTORIA --- AUTORIA */
+
+.autoria-conteudo{
+background-color: #E4B7E5;
+width: 100%;
+height: 220px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.foto__autora{
+max-height: 242px;
+}
+
+.sobre__autora{
+color: #63458a;
+font-size: 15px;
+padding-left: 20px;
+}
+
+/* --- BTN --- BTN --- BTN*/
+
+.btn__maravilhosas{
+color: white;
+background-color: #C083B9;
+max-width: 200px;
+display: flex;
+text-align: center;
+justify-content: center;
+margin: 0 auto;
+margin-bottom: 30px;
+margin-top: 35px;
+text-transform: uppercase;
+font-weight: bold;
+padding: 15px;
+border-radius: 5px;
+font-size: 13px;
+}
 
 /* --- FOOTER --- */
 
-  .rodape {
-  padding-top: 0;
-  }
+.rodape {
+background-color: #323534;
+color: white;
+padding-top: 0;
+}
 
-  .rodape__principal {
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-  }
+.rodape__principal {
+align-items: center;
+text-align: center;
+flex-direction: row;
+justify-content: space-around;
+width: 100%;
+}
 
-  .rodape__logo img {
+.rodape__principal > * {
+margin: 16px 0;
+}
+
+.rodape__navegacao > li {
+font-size: 14px;
+margin: 8px;
+}
+
+.rodape__navegacao a {
+transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+color: #C083B9;
+}
+
+.rodape__logo {
+max-width: 200px;
+align-items: center;
+justify-content: center;
+}
+
+.rodape__logo img {
   max-width: 300px;
-  }
+}
 
-  .rodape__navegacao > li {
-   font-size: 14px;
-  }
+.rodape__cc {
+width: 100%;
+background-color: #292A2A;
+font-size: 12px;
+opacity: 0.5;
+text-align: center;
+padding: 10px;
+}
 
-  .rodape__redes-sociais img {
-    max-width: 32px;
-    margin-right: 8px;
-  }
+.rodape__redes-sociais img {
+  max-width: 32px;
+  margin-right: 8px;
+}
 
 }
 
