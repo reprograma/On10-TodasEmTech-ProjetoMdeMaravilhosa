@@ -147,6 +147,44 @@ main {
   width: 100%;
   padding-bottom: 5%;
 }
+
+/* SECTION AUTORA */
+
+.autora {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#dd9fd6;
+  padding: 2%;
+}
+.imagem-autora {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.lista-autora {
+  color: #674582;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 20px;
+}
+
+/* BUTTON */
+
+.area_button {
+  padding: 30px;
+  text-align: center;
+}
+.button {
+  padding: 10px 30px;
+  background-color:#C083B9;
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  font-weight: bold;
+}
+
 /* FOOTER */
 
 .rodape {
@@ -299,6 +337,28 @@ main {
   .texto_historia {
     font-size: 14px;
   }
+
+  /* SECTION AUTORA */
+  
+  .imagem-autora {
+    width: 120px;
+    height: 120px;
+  }
+
+  .lista-autora {
+    font-size: 16px;
+  }
+  
+  /* BUTTON */
+
+  .area_button {
+    padding: 30px;
+    text-align: center;
+  }
+
+  .button {
+    font-size: 20px;
+  }
   
   /* --- FOOTER --- */
   .rodape {
@@ -371,9 +431,23 @@ main {
   }
 
   .texto_historia{
-  font-size: 18px;
-  line-height: 30px;
+    font-size: 18px;
+    line-height: 30px;
   }
 
+  .imagem-autora {
+    width: 150px;
+    height: 150px;
+  }
+
+  .lista-autora {
+    font-size: 18px;
+    padding-left: 40px;
+  }
+
+  .area_button {
+    padding: 30px;
+    text-align: center;
+  }
 }  
 
