@@ -60,9 +60,9 @@
   width: 50%;
   max-width: 960px;
   }
-  
-  .navegacao__itens {
-  display: none;
+
+  .navegacao__itens{
+    display: none;
   }
   
   .navegacao__menu-hamburguer img {
@@ -90,7 +90,7 @@
   font-size: 30px;
   color: #FFFFFF;
   text-transform: uppercase;
-  margin-bottom: 100px;
+  margin:100px auto;
   }
   
   /* --- SECTION MARAVILHOSAS --- */
@@ -118,6 +118,8 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    max-width: 800px;
+    margin: auto;
   
   }    
   .cabecalho p{
@@ -158,32 +160,33 @@
   
   .autora{
     background-color: #C083B9;
+    background-size: auto;
     color: #63458A;
     display: flex;
-    margin: 60px 0;
+    margin-bottom: 20px;
     font-size: 8px;
   }
   
   .autora img{
     width: 100px;
-    height: 80px;
+    height: 100px;
     padding-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 50px;
     }
   
-    .autora li:hover{
+  .autora li:hover{
       font-weight: bold;
       box-shadow: indigo;
     }
   
-    .autora ul{
+  .autora ul{
       margin-bottom: 40px;
       margin-top: 40px;
       margin-right: 80px;
       margin-left: 50px;
-    }
+  }
   
   button{
     text-transform: uppercase;
@@ -204,14 +207,13 @@
 .rodape {
   background-color: #323534;
   color: white;
-  display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 
 .rodape__principal {
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
 }
@@ -234,8 +236,8 @@
 }
 
 .rodape__logo {
-  align-items: center;
-  justify-content: center;
+  max-width: 500px;
+  text-align: center;
 }
 
 .rodape__cc {
@@ -328,31 +330,11 @@
    }
 
   }
-  /* --- SECTION mMARAVILHOSA --- */
     
-    .maravilhosas__box > div {
-        max-width: 74px;
-        margin: 84px;
-    }
-  
-    .maravilhosas__perfil p {
-        font-size: 18px;
-        text-align: center;
-        margin-top: 14px;
-    }
-  
-  
   /* --- FOOTER --- */
-
-  .rodape {
-    padding-top: 0;
-    }
-  
+ 
     .rodape__principal {
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
-      width: 100%;
+      flex-direction: column;
     }
   
     .rodape__logo img {
@@ -372,22 +354,16 @@
   
   /* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
   
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1024px) {
 
- .container {
-    margin: 0 auto;
-    width: 50%;
-    max-width: 960px;
-  }
-  
-  .navegacao__nav{
-    color:#FFFFFF;
-    margin-bottom: 0;
-  }
+ 
+ .rodape__principal{
+   display: flex;
+   flex-direction: row;
+   padding-top: 0p;
+ }
+
   .navegacao__box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     max-width: 80%;
   }
   
@@ -415,19 +391,10 @@
   
   .principal__titulo {
     font-size: 26px;
-    padding: 40px 200px 0px px;
+    padding: 40px 200px 0px;
   }
   
-  .principal__sub {
-    font-size: 18px;
-    padding: 0px 400px 0px 0px;
-  }
-  
-  .maravilhosas__perfil a img {
-    width: 280%;
-    border-radius: 10px;
-  }
-  
+     
   .cabecalho {
     margin-bottom: 20px;
     display: flex;
@@ -443,33 +410,6 @@
     margin-left: 500px;
   }
 
-  /* --- FOOTER --- */
-
-  .rodape {
-    display: flex;
-    flex-direction: row;
-    padding-top: 0;
-    }
-  
-    .rodape__principal {
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
-      width: 100%;
-    }
-  
-    .rodape__logo img {
-    max-width: 300px;
-    }
-  
-    .rodape__navegacao > li {
-     font-size: 14px;
-    }
-  
-    .rodape__redes-sociais img {
-      max-width: 32px;
-      margin-right: 8px;
-    }
 }  
   
   
