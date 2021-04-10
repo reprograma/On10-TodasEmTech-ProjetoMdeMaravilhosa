@@ -29,7 +29,7 @@ li {
 /* --- Mobile First--- */
 
 /* NAV  --- NAV  --- NAV */
-
+@media (min-width: 768px) {
 .navegacao {
   background-color: #674582;
   box-shadow: 0px 5px 5px rgba(0,0,0,.2);
@@ -48,7 +48,7 @@ li {
   align-items: center;
   justify-content: space-between;
   width: 90%;
-}
+}}
 
 /* define o tamanho da caixa */
 .container {
@@ -328,7 +328,7 @@ li {
     margin-right: 8px;
   }
 
-}
+
 
 /* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
 
