@@ -65,44 +65,15 @@ li {
   border-radius: 2px;
 }
 
-/* --- BOTAO --- */
-
-.btn {
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 16px;
-  border-radius: 5px;
-  font-size: 14px;
-}
-
-.btn_roxo {
-  color: white;
-  background-color: #c083b9;
-  display: block;
-  max-width: 200px;
-  text-align: center;
-  transition: all 0.5s;
-  margin: 0 auto;
-}
-
-.btn_roxo:hover,
-.btn_roxo:focus {
-  transform: translateY(-06px);
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-  background-color: rgb(192, 156, 188);
-}
-
-.btn_center {
-  margin: 0 auto;
-}
-
 /* HEADER  --- HEADER  --- HEADER */
 
 .header {
   min-height: 40px;
   height: 500px;
   background: linear-gradient(rgba(255, 0, 255, 0.2), rgba(255, 0, 255, 0.2)),
-    url(../../imagens/bg-banner-claro.png);
+    url(https://instagram.frec15-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/53060349_409841999584716_921798385258742826_n.jpg?tp=1&_nc_ht=instagram.frec15-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=rznCxjoeaO8AX8KfyG_&tn=rkTolzn3lHbI7fQR&edm=AP_V10EAAAAA&ccb=7-4&oh=b001f5ccabf76cfe8cb5f2c0e82b6116&oe=6093BBE8&_nc_sid=4f375e);
+    background-position: bottom;
+    background-position-y: 5.3rem;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -117,14 +88,82 @@ li {
 
 .principal__titulo {
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 3rem;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
-.principal__sub {
-  font-weight: 300;
-  margin: 10px 0 16px 0;
-  font-size: 18px;
+/* main */
+h2 {
+  text-align: center;
+  margin: 3rem;
+  color: #63458A;
+  font-size: 3rem;
+}
+
+.sobre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sobre-img-perfil {
+  width: 7rem;
+  height: 7rem;
+  margin: 0 1rem 2rem 2rem;
+}
+
+.sobre-descricao {
+  margin: 0 2rem 2rem 0;
+  color: #63458A;
+}
+
+.container-frase {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 18rem;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.container-frase-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 18rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  color: #63458A;
+  text-align: justify;
+}
+
+.frase {
+  margin: auto;
+  text-align: center;
+  border: 2px solid #63458A;
+  color: #63458A;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.container-fim {
+  width: 18rem;
+  height: 7rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  text-align: center;
+  background-image: url(https://instagram.frec15-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/135536478_294739905318892_1753958584524858063_n.jpg?tp=1&_nc_ht=instagram.frec15-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=M7ERa_L5j-4AX-HSb4o&edm=AP_V10EAAAAA&ccb=7-4&oh=145a82c231f26fcb3bfc5e2e6b288a68&oe=60945CA3&_nc_sid=4f375e);
+  background-size: 18rem;
+  background-position-y: -2rem;
+  opacity: 80%;
+  transition: .5s;
+}
+
+.container-fim:hover {
+  opacity: 100%;
+  transform: scale(1.1);
 }
 
 /* --- FOOTER --- */
@@ -178,6 +217,37 @@ li {
 }
 
 /* medias */
+@media (min-width: 452px) {
+  .sobre {
+    width: 28rem;
+    margin: auto;
+  }
+
+  .container-frase {
+    width: 24rem;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  
+  .container-frase-bottom {
+    width: 24rem;
+    margin: auto;
+    margin-bottom: 2rem; 
+  }
+
+  .container-fim {
+    width: 24rem;
+    height: 10rem;
+    background-size: 24rem;
+  }
+}
+
+@media (min-width: 614px) {
+  h2 {
+    font-size: 1.7rem;
+  }
+}
+
 @media (min-width: 768px) {
   /* --- NAV --- */
   .navegacao__itens {
@@ -239,12 +309,37 @@ li {
     font-size: 28px;
   }
 
-  .principal__sub {
-    font-size: 18px;
+  /* main */
+  .sobre {
+    width: 28rem;
+  }
+  .sobre-img-perfil {
+    width: 10rem;
+    height: 10rem;
   }
 
-  .principal__btn {
-    margin: 0;
+  .sobre {
+    width: 40rem;
+    margin: auto;
+  }
+
+  .container-frase {
+    width: 36rem;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  
+  .container-frase-bottom {
+    width: 36rem;
+    margin: auto;
+    margin-bottom: 2rem; 
+  }
+
+  .container-fim {
+    width: 36rem;
+    height: 16rem;
+    background-size: 36rem;
+    background-position-y: -4rem;
   }
 
   /* --- FOOTER --- */
@@ -294,13 +389,8 @@ li {
   }
 
   .principal__titulo {
-    font-size: 26px;
+    font-size: 6rem;
     padding: 40px 200px 0px px;
-  }
-
-  .principal__sub {
-    font-size: 18px;
-    padding: 0px 400px 0px 0px;
   }
 
   .maravilhosas__perfil a img {
