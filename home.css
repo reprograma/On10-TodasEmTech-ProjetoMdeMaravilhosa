@@ -332,7 +332,7 @@ li {
 
 /* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .navegacao__box {
     max-width: 80%;
   }
