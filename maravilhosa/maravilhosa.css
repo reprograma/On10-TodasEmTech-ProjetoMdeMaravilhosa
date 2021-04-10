@@ -99,19 +99,19 @@ text-align: center;
 }
 
 .perfilmarie{
-margin-top: 2px;
 max-width: 160px;
 border-radius: 5px;
 margin-right: 10px;
 
 
 }
-.pagina-home-section1{
+.pagina-home-container{
 
   display: flex; 
   flex-flow: row wrap;
   padding: 2rem;
   justify-content: center;
+  width: 100%;
 
 
 }
@@ -147,10 +147,42 @@ border-color: rgb(186, 93, 248);
   max-width: 550px;
   display: flex;
 }
+.relato2{ 
+  color: white;
+  max-width: 550px;
+  display: flex;
+}
 
 .sua-historia{
-
+  margin-bottom: 15px;
   color: rgb(86, 4, 161);
   justify-content: center;
   
+}
+
+.botao-ver-todas-elas{
+  padding: 15px;
+  background-color: blueviolet;
+  color: white;
+}
+
+.botom-nav-pages{
+  font-size: 13px;;
+}
+
+
+.divider{
+
+background-color: #674582;
+width: 40%;
+height: 2px;
+
+
+
+
+}
+
+.banner-autora2{
+  height: 290px;
+  width: 40%;
 }
