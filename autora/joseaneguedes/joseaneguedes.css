@@ -482,3 +482,51 @@ p {
 .text-center {
   text-align: center;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+    margin: 2px;
+}
+
+
+/* --- MEDIA QUERY --- */
+
+@media screen and (max-width: 1440px) {
+
+    /* .header {
+        background-position: left;
+    } */
+    .navegacao__menu-hamburguer {
+        display: block;
+    }
+
+    .navegacao__itens {
+        display: none;
+    }
+
+    .joseane {
+        background: cover;
+        padding: 20px 20px;
+    }
+
+    .principal__titulo {
+        font-size: 4.8rem;
+    }
+
+    .joseane__title {
+        font-size: 2.2rem;
+    }
+
+
+
+}
+
+@media screen and (min-width: 885px) {
+    .joseane {
+        padding: 20px 120px;
+    }
+
+    
+
+}
