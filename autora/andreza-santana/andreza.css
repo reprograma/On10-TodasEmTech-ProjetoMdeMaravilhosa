@@ -50,7 +50,7 @@ li {
 
 .header {
   min-height: 40px; 
-  height: 500px;
+  height: 75vh;
   background: linear-gradient(rgba(255, 0, 255, 0.2),
                               rgba(255, 0, 255, 0.2)),
             url(img/bg-andreza.jpg);
@@ -78,6 +78,82 @@ li {
 
 .img-responsive {
   width: 180px;
+}
+
+/* --- CONTEÚDO MAIN --- */
+
+main {
+  padding: 5%;
+  color: #674582;;
+}
+
+/* PERFIL ANDREZA */
+
+.titulo_perfil {
+  font-size: 18px;
+  padding-bottom: 5%;
+  text-align: center;
+  font-weight: bold;
+}
+.conteudo_perfil {
+  display: flex;
+}
+
+.foto_perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+}
+
+.texto_perfil {
+  font-size: 12px;
+  text-align:left;
+  padding: 0 10px;
+  line-height: 15px;
+}
+
+.texto_perfil_autora {
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+.rede_perfil {
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+ .linha {
+   margin: 10% 30%;
+   width: 40%;
+   align-items: center;
+   color: #674582;
+ }
+
+ /* SOBRE AUTORA */
+
+.titulo_sobre {
+  font-size: 16px;
+  padding: 5% 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.texto_sobre {
+  font-size: 12px;
+  text-align: left;
+  padding: 0 10px;
+  line-height: 20px;
+}
+
+.texto_sobre p {
+  padding-bottom: 20px;
+}
+
+.imagem_sobre {
+  width: 100%;
+  padding-bottom: 5%;
 }
 
 /* --- FOOTER --- */
@@ -204,6 +280,51 @@ li {
   .img-responsive {
     width: 200px;
   }
+
+  /* MAIN */
+
+  main {
+    padding: 5% 20%;
+  }
+
+  .foto_perfil {
+    width: 150px;
+    height: 150px;
+  }
+
+  .titulo_perfil {
+    font-size: 24px;
+  }
+  
+  .texto_perfil {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 8px;
+  }
+
+  .texto_perfil_autora {
+    font-size: 14px;
+  }
+  
+  .rede_perfil {
+    font-size: 14px;
+  }
+
+  /* SOBRE AUTORA */
+
+.titulo_sobre {
+  font-size: 18px;
+}
+
+.texto_sobre {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.imagem_sobre {
+  width: 100%;
+  padding-bottom: 5%;
+}
   
   /* --- FOOTER --- */
   .rodape {
@@ -230,21 +351,9 @@ li {
    }
 
 }
-/* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
+/* --- DESKTOP---  */
 
-@media (min-width: 1440px) {
-  .navegacao__box {
-    max-width: 80%;
-  }
-
-  .header {
-    min-height: 90vh;
-  }
-
-  .navegacao__itens li {
-   font-size: 24px;
-    margin: 0 16px;
-  }
+@media (min-width: 1200px) {
 
   .principal {
     max-width: 650px;
@@ -260,13 +369,41 @@ li {
     padding: 0px 400px 0px 0px;
   }
 
-  .maravilhosas__perfil a img {
-    width: 280%;
-    border-radius: 10px;
-  }
-
   .img-responsive {
     width: 200px;
+  }
+
+  main {
+    padding: 5% 20%;
+  }
+
+  .titulo_perfil {
+    font-size: 24px;
+  }
+  
+  .texto_perfil {
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 0px;
+  }
+
+  .texto_perfil_autora {
+    font-size: 18px;
+    padding: 8px 10px;
+  }
+  
+  .rede_perfil {
+    font-size: 18px;
+  }
+
+  .linha {
+    margin-top: 6 0px;
+    margin-bottom: 20px;
+  }
+
+  .texto_sobre {
+    font-size: 18px;
+    line-height: 24px;
   }
 
 }  
