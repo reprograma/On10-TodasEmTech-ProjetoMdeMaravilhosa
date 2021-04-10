@@ -151,12 +151,11 @@
   }
   
   .sua-historia img{
-   margin: 20px auto;
+   margin:auto;
    width: 270px;
    height: 200px;
    padding-right: 40px;
-   padding-left: 25px;
-  
+ 
   }
   
   .autora{
@@ -408,7 +407,7 @@
    } 
 
   .sua-historia img{
-    margin-left: 500px;
+    margin-left: 350px;
   }
 
 }  
