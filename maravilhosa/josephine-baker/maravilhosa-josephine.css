@@ -72,7 +72,7 @@ li {
   height: 500px;
   background: linear-gradient(rgba(255, 0, 255, 0.2),
                             rgba(255, 0, 255, 0.2)),
-             url(./imagens-allana/bg-allana.jpg);
+             url(./imagens-josephine/bg-josephine.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -87,6 +87,7 @@ li {
 }
 
 .principal__titulo {
+  text-transform: uppercase;
   text-align: center;
   font-size: 22px;
   font-weight: 900;
@@ -102,14 +103,14 @@ li {
 
 }
 
-.autora__allana{
+.maravilhosa__josephine{
   display: flex;
   flex-direction: column;
 }
 
-.allana__perfil {
+.maravilhosa__perfil {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
   margin-top: 6%;
   margin-left: 4%;
@@ -118,15 +119,36 @@ li {
   color: #63458A;
 }
 
-.allana__perfil img {
+.maravilhosa__perfil img {
   max-height: 94px;
 }
 
-.allana__perfil perfil {
-  font-size: 7px;
-  margin-right: 20%;
+.maravilhosa__perfil perfil {
+  font-size: 8px;
 }
 
+.maravilhosa__frase {
+  border: 2px solid #63458a;
+  margin: 30px 40px;
+  font-weight: bold;
+  color: #63458a;
+  align-items: center;
+  padding: 8%;
+  text-align: justify;
+}
+
+.historia__josephine {
+  margin: 4% 6%;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  align-items: center;
+  color: #63458A; 
+}
+
+.historia__josephine img{
+  max-width: 370px;
+}
 
 .infos__autora{
   display: flex;
