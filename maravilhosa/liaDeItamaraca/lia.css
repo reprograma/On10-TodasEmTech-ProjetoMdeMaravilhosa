@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+  width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+/* --- Mobile First--- */
+
+/* NAV  --- NAV  --- NAV */
+
+.navegacao {
+  background-color: #91becc;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+  padding: 24px;
+  z-index: 99; 
+  position: fixed;
+  width: 100%;
+}
+
+.navegacao__logo {
+  max-width: 200px;
+}
+
+.navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.navegacao__itens {
+  display: none;
+}
+
+.navegacao__menu-hamburguer img {
+  border-radius: 2px;
+}
+
+/* HEADER  --- HEADER  --- HEADER */
+
+.header {
+  min-height: 40px; 
+  height: 500px;
+  background: linear-gradient(rgba(207, 183, 207, 0.2),
+                              rgba(235, 225, 235, 0.2)),
+            url(/maravilhosa/liaDeItamaraca/img/bg-lia.jpg);            
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: rgb(40, 43, 3);
+}
+
+
+.principal {
+  margin-bottom: 20px;
+}
+
+.principal__titulo {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  text-align: right;
+}
+
+.principal__sub {
+  font-weight: 500 bold;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  color: #004976;
+  
+}
+
+.introducao{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  color: #028cca;
+  
+}
+
+.introducao .close{
+  width: 20%;
+  border-radius: 10px;
+  margin-left: 40px;
+  
+  /*margin:30px 20px 30px 40px;*/
+}
+
+.introducao p{
+  
+  text-align: justify;
+  font-weight: 10;
+  margin-right: 40px;
+  padding-left: 10px;
+}
+
+.card {
+  width: 80%;
+  align-items: center;
+  border:solid #00306e;
+  margin:20px 40px;
+}
+
+.card p{
+  text-align: justify;
+  padding: 20px;
+  color:#028cca;
+}
+
+
+
+
+
+/* --- FOOTER --- */
+
+.rodape {
+  background-color: #323534;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.rodape__principal > * {
+  margin: 16px 0;
+}
+
+.rodape__navegacao > li {
+  font-size: 14px;
+  margin: 8px;
+}
+
+.rodape__navegacao a {
+  transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+  color: #C083B9;
+}
+
+.rodape__logo {
+  max-width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292A2A;
+  font-size: 14px;
+  opacity: 0.5;
+  text-align: center;
+  padding: 10px;
+}
+
+/*  --- TABLET --- --- TABLET --- */
+
+@media (min-width: 768px) {
+  
