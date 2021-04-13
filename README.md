@@ -13,7 +13,7 @@ Professora: Raquel Andrade
 - **07/04**: Finalizar o projeto e dúvida extras.
 
 ## Projeto
-Escolha um personlidade Maravilhosa que te inspira para criar uma página de perfil dela.
+Escolha uma personlidade Maravilhosa que te inspira para criar uma página de perfil dela.
 
 ## Requisitos obrigatórios:
 1. A página deve ser responsiva;
