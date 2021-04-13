@@ -118,9 +118,16 @@ li {
 }
 
 .principal__titulo {
+  display: flex;
+  justify-content: center;
   text-transform: uppercase;
   font-size: 48px;
   font-weight: 900;
+}
+
+h1 {
+  display: block;
+  align-content: center;
 }
 
 .principal__sub {
@@ -289,9 +296,9 @@ li {
     .principal__btn {
         margin: 0;
     }
-  
-  /* --- SECTION mMARAVILHOSA --- */
-    
+}
+  /* --- SECTION MARAVILHOSA --- */
+
     .maravilhosas__box > div {
         max-width: 74px;
         margin: 84px;
