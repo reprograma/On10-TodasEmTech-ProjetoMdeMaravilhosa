@@ -243,7 +243,7 @@ li {
     text-align: center;
   }
     
-    .navegacao__itens li {
+  .navegacao__itens li {
     font-size: 14px;
     margin: 0 9px;
   }
@@ -289,7 +289,7 @@ li {
     .principal__btn {
         margin: 0;
     }
-
+  
   /* --- SECTION mMARAVILHOSA --- */
     
     .maravilhosas__box > div {
@@ -346,6 +346,11 @@ li {
 .navegacao__logo {
   max-width: 200px;
 }
+
+  .navegacao__itens li {
+   font-size: 14px;
+    margin: 0 16px;
+  }
 
 .navegacao__box {
   display: flex;
