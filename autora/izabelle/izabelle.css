@@ -1,0 +1,392 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+html {
+    font-size: 100%;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+
+.img-responsive {
+    width: 100%;
+}
+
+
+/* define o tamanho da caixa */
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+
+
+/* --- Mobile First--- */
+
+
+/* NAV  --- NAV  --- NAV */
+
+.navegacao {
+    background-color: #674582;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .2);
+    padding: 24px;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+}
+
+.navegacao__logo {
+    max-width: 200px;
+}
+
+.navegacao__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+
+/* define o tamanho da caixa */
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+
+.navegacao__itens {
+    display: none;
+}
+
+.navegacao__menu-hamburguer img {
+    border-radius: 2px;
+}
+
+.navegacao__menu-hamburguer img {
+    border-radius: 2px;
+}
+
+
+/* define o Header */
+
+.header {
+    min-height: 80vh;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background: linear-gradient(rgba(255, 0, 255, 0.2), rgba(255, 0, 255, 0.2)), url(/autora/izabelle/img/banner_iza.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.principal {
+    padding-bottom: 7rem;
+}
+
+.principal__titulo {
+    font-size: clamp(1rem, 1.2rem + 2vw, 2rem);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+
+/* Define o main*/
+
+.sobre_autora,
+.sobre_m,
+.outras_maravilhosas {
+    width: 100%;
+    padding: 3rem 3rem 0 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre_autora h1,
+.sobre_m h1,
+.outras_maravilhosas h1 {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    color: #63458A;
+    font-size: clamp(1rem, 1rem + 1vw, 1.6rem);
+    text-align: center;
+}
+
+.sobre_autora_resumo {
+    display: flex;
+    padding: 2rem 0;
+}
+
+.sobre_autora_resumo img {
+    width: 6.3rem;
+    height: 6.3rem;
+    border-radius: 0.8rem;
+}
+
+.sobre_autora_resumo p {
+    font-size: min(1.2rem, 3vw);
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1rem;
+    color: #766c83;
+    text-align: justify;
+}
+
+.cor-roxo {
+    color: #63458A;
+}
+
+.negrito {
+    font-weight: bolder;
+}
+
+.separador {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+hr {
+    display: inline-block;
+    width: 200px;
+    margin: 0;
+    border: none;
+    height: 1px;
+    background-color: #674582;
+}
+
+
+/* Sobre M de Maravilhosa */
+
+.sobre_m_texto {
+    margin-top: 2rem;
+}
+
+.sobre_m_texto p {
+    font-size: min(1.2rem, 3.3vw);
+    font-family: 'Montserrat', sans-serif;
+    color: #766c83;
+    padding: 0;
+    text-align: justify;
+}
+
+.sobre_m_texto img {
+    width: 100%;
+    height: 7rem;
+    object-fit: cover;
+    object-position: center 35%;
+}
+
+
+/* Section Outras Maravilhoas*/
+
+.outras_maravilhosas_perfil {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.outras_maravilhosas_perfil div {
+    margin: 47px 47px 0 47px;
+}
+
+.perfil_maravilhosas a img {
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+.perfil_maravilhosas a p {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #766c83;
+    padding: 0.9rem 0;
+}
+
+.button {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+button {
+    background: #C083B9;
+    border: none;
+    font-weight: bolder;
+    padding: 0.8rem 2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all .5s;
+    color: aliceblue;
+    margin-bottom: 3rem;
+}
+
+button:hover {
+    background: #af7ca9;
+    transform: translateY(-06px);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+    outline: none;
+}
+
+
+/* --- FOOTER --- */
+
+.rodape {
+    background-color: #323534;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.rodape__principal>* {
+    margin: 16px 0;
+}
+
+.rodape__navegacao>li {
+    font-size: 14px;
+    margin: 8px;
+}
+
+.rodape__navegacao a {
+    transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+    color: #C083B9;
+}
+
+.rodape__logo {
+    max-width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape__cc {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 14px;
+    opacity: 0.5;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* --- TABLET--- --- TABLET--- --- TABLET--- --- TABLET---   */
+
+@media screen and (min-width: 720px) {
+    /* --- NAV --- */
+    .navegacao__itens {
+        display: flex;
+        padding: 0;
+        width: auto;
+    }
+    .navegacao__nav {
+        color: #fff;
+        margin-bottom: 0;
+    }
+    .navegacao__itens ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .navegacao__itens li {
+        font-size: 14px;
+        margin: 0 9px;
+    }
+    .navegacao__itens li>a {
+        transition: all .2s;
+    }
+    .navegacao__itens li>a:hover {
+        color: #C083B9;
+    }
+    .navegacao__menu-hamburguer {
+        display: none;
+    }
+    /* --- HEADER --- */
+    .header {
+        padding: 10px 100px;
+    }
+    .principal__titulo {
+        font-size: 28px;
+    }
+    .sobre_autora_img_perfil {
+        width: 60%;
+        margin-right: 1rem;
+    }
+    .izabelle_autora_resumo img {
+        width: 10rem;
+        height: 10rem;
+    }
+    .izabelle_autora_resumo {
+        padding: 3rem 0 4rem 0;
+    }
+    .sobre_autora {
+        padding: 2rem 4rem 0 4rem;
+    }
+    .sobre_m,
+    .outras_maravilhosas {
+        padding: 4rem 4rem 0 4rem;
+    }
+    .sobre_m_texto p {
+        margin: 1rem 0;
+    }
+    .sobre_m_texto img {
+        height: 17rem;
+    }
+    button {
+        padding: 1rem 3rem;
+    }
+    .button {
+        margin: 3rem 0 2rem 0;
+    }
+}
+
+@media screen and (min-width: 924px) {
+    .rodape {
+        padding-top: 0;
+    }
+    .rodape__principal {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+    .rodape__navegacao>li {
+        font-size: 14px;
+    }
+    .rodape__redes-sociais img {
+        max-width: 32px;
+        margin-right: 8px;
+    }
+    .header {
+        height: 85vh;
+    }
+}
