@@ -1,0 +1,390 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+margin: 0 auto;
+width: 100%;
+max-width: 960px;
+}
+
+/* --- Mobile First--- */
+
+/* NAV  --- NAV  --- NAV */
+
+.navegacao {
+background-color: #674582;
+box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+padding: 24px;
+z-index: 99; 
+position: fixed;
+width: 100%;
+}
+
+.navegacao__logo {
+max-width: 200px;
+}
+
+.navegacao__box {
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 90%;
+}
+
+/* define o tamanho da caixa */
+.container {
+margin: 0 auto;
+width: 100%;
+max-width: 960px;
+}
+
+.navegacao__itens {
+display: none;
+}
+
+.navegacao__menu-hamburguer img {
+border-radius: 2px;
+}
+
+/* HEADER  --- HEADER  --- HEADER */
+
+.header {
+min-height: 40px; 
+height: 500px;
+background:url(img/mariana-background.png);
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+align-items: flex-end;
+text-align: center;
+color: white;
+}
+
+span{
+  color: #63458A;
+  font-weight: bolder;
+}
+
+h1 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 1000;
+font-size: 30px;
+color:#63458A;
+text-align: center;
+}
+
+/* --- SECTION MARAVILHOSAS --- */
+
+h2{
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  color:#674582;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;  
+  font-size: 20px;
+}
+
+p{
+font-family: Montserrat;
+font-style: normal;
+font-size: 8px;
+color: #63458A;
+text-align: center;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 800px;
+}
+  
+.cabecalho p{
+  padding-top: 5px;
+  margin-left: 25px;
+  margin-right: 30px;
+  text-align: left;
+}
+
+.cabecalho img{
+  width: 80px;
+  height: 100px;
+  padding: 5px;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+
+.sobre-maravilhosa img{
+  width: 170px;
+  height: 170px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 120px;
+  }
+  
+.maravilhosas img{
+  width: 120px;
+  height: 120px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  display:block;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button{
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: #C083B9;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+hr{
+  width: 50%;
+  margin:auto;
+}
+
+.background{
+  min-height: 60px; 
+  height: 700px;
+  background-image: url(./img/todas-em-tech.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  color: white;
+  }
+  
+/* --- FOOTER --- */
+
+.rodape {
+background-color: #323534;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.rodape__principal {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+}
+
+.rodape__principal > * {
+margin: 16px 0;
+margin: 8px;
+}
+
+.rodape__navegacao > li {
+font-size: 14px;
+margin: 8px;
+}
+
+.rodape__navegacao a {
+transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+color: #C083B9;
+}
+
+.rodape__logo {
+max-width: 200px;
+align-items: center;
+justify-content: center;
+}
+
+.rodape__cc {
+width: 100%;
+background-color: #292A2A;
+font-size: 14px;
+opacity: 0.5;
+text-align: center;
+padding: 10px;
+}
+
+/*  --- TABLET --- --- TABLET --- */
+
+@media screen and (min-width: 768px) {
+/* --- NAV --- */
+.navegacao__itens {
+  position: static;
+  display: flex;
+  padding: 0;
+  width: auto;
+}
+
+.navegacao__nav { 
+  color: #fff;
+  margin-bottom: 0;
+}
+  
+.navegacao__itens ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+  
+  .navegacao__itens li {
+  font-size: 14px;
+  margin: 0 9px;
+}
+
+.navegacao__itens.ativo {
+  display: block;
+  right: 0;
+  top: 85px;
+  width: 100%;
+  background-color: #674582;
+  text-align: center;
+  padding: 48px 0;
+  transition: right 1s;
+}
+
+.navegacao__itens li > a {
+  transition: all .2s;
+}
+
+.navegacao__itens li > a:hover {
+  color: #C083B9;
+}
+  
+.navegacao__menu-hamburguer {
+  display: none;
+}
+
+/* --- HEADER --- */
+ .header {
+    min-height: 75vh;
+    text-align: left;
+    padding: 10px 100px;
+    background-size: cover;
+  }
+
+  .principal__titulo {
+      font-size: 28px;
+  }
+  
+ .sobre-maravilhosa img{
+    margin-left:300px;
+  }
+
+}
+
+/* --- FOOTER --- */
+
+.rodape__principal {
+  flex-direction: column;
+}
+
+.rodape__logo img {
+max-width: 300px;
+}
+
+.rodape__navegacao > li {
+ font-size: 14px;
+}
+
+.rodape__redes-sociais img {
+  max-width: 32px;
+  margin-right: 8px;
+}
+
+/* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
+
+@media screen and (min-width: 1024px) {
+
+.rodape__principal{
+  display: flex;
+  flex-direction: row;
+  padding-top: 0;
+}  
+
+.navegacao__box {
+  max-width: 80%;
+}
+
+.header {
+  min-height: 90vh;
+  background-size: cover;
+}
+
+.navegacao__itens ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.navegacao__itens li {
+ font-size: 24px;
+  margin: 0 16px;
+}
+
+.principal {
+  max-width: 650px;
+}
+
+.principal__titulo {
+  font-size: 26px;
+  padding: 40px 200px 0px;
+}
+
+.cabecalho {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  }
+  
+.cabecalho img{
+   margin-left: 100px;
+ } 
+
+.sobre-maravilhosa img{
+  margin-left:400px;
+}
+
+.maravilhosas img{
+  margin-left: 430px;
+}
+
+}
