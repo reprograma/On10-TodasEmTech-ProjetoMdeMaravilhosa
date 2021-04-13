@@ -1,0 +1,532 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+  width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+/* --- Mobile First--- */
+
+/* NAV  --- NAV  --- NAV */
+
+.navegacao {
+  background-color: #674582;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, .2);
+  padding: 24px;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+}
+
+.navegacao__logo {
+  max-width: 200px;
+}
+
+.navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.navegacao__itens {
+  display: none;
+}
+
+.navegacao__menu-hamburguer img {
+  border-radius: 2px;
+}
+
+
+
+
+/* HEADER  --- HEADER  --- HEADER */
+
+.header {
+  min-height: 80vh;
+  height: 500px;
+  width: 100%;
+  background: linear-gradient(rgba(255, 0, 255, 0.2),
+      rgba(255, 0, 255, 0.2)),
+    url(../joseaneguedes/img/josie-banner.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: white;
+  position: relative;
+  align-content: center;
+  justify-content: center;
+}
+
+.principal {
+  margin-bottom: 30px;
+}
+
+.principal__titulo {
+  text-transform: uppercase;
+  font-size: 6.5rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+/* --- MAIN --- */
+
+main {
+  color: #63458A;
+}
+
+/* --- SECTION AUTORA --- */
+
+.joseane {
+  align-items: center;
+  padding: 20px 190px;
+}
+
+
+.joseane__title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+}
+
+.joseane__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.joseane__img {
+  height: 200px;
+  width: auto;
+  border-radius: 10px;
+
+}
+
+.joseane__txt {
+  width: 65%;
+  padding: 40px 27px;
+  font-size: 1.0rem;
+}
+
+.joseane__txt negrito {
+  font-weight: bolder;
+}
+
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.linha {
+  background: #63458A;
+  height: 1px;
+  width: 300px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.box__border {
+  align-items: center;
+  border: 1px solid #674582;
+  margin: 30px;
+}
+
+.box_txt {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 20px 50px;
+  text-align: center;
+}
+
+.historia {
+  text-align: center;
+  margin: 40px 20px;
+
+}
+
+.historia_title {
+  text-align: left;
+}
+
+.historia__text {
+  font-size: 1.4rem;
+  margin: 25px 0;
+  text-align: left;
+}
+
+.historia__img {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  max-height: 800px;
+  justify-content: center;
+  align-items: center;
+}
+
+.historia__legenda_img {
+  font-size: 1.2rem;
+  color: darkgray;
+  text-align: center;
+}
+
+/* --- FOOTER --- */
+
+.rodape {
+  background-color: #323534;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.rodape__principal>* {
+  margin: 16px 0;
+}
+
+.rodape__navegacao>li {
+  font-size: 14px;
+  margin: 8px;
+}
+
+.rodape__navegacao a {
+  transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+  color: #C083B9;
+}
+
+.rodape__logo {
+  max-width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292A2A;
+  font-size: 14px;
+  opacity: 0.5;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+/*  --- TABLET --- --- TABLET --- */
+
+@media (min-width: 768px) {
+
+  /* --- NAV --- */
+  .navegacao__itens {
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+  }
+
+  .navegacao__nav {
+    color: #fff;
+    margin-bottom: 0;
+  }
+
+  .navegacao__itens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navegacao__itens li {
+    font-size: 14px;
+    margin: 0 9px;
+  }
+
+  .navegacao__itens.ativo {
+    display: block;
+    right: 0;
+    top: 85px;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 48px 0;
+    transition: right 1s;
+  }
+
+  .navegacao__itens li>a {
+    transition: all .2s;
+  }
+
+  .navegacao__itens li>a:hover {
+    color: #C083B9;
+  }
+
+  .navegacao__menu-hamburguer {
+    display: none;
+  }
+
+  /* --- HEADER --- */
+  .header {
+    min-height: 75vh;
+    text-align: left;
+    padding: 10px 100px;
+  }
+
+  .principal__titulo {
+    font-size: 28px;
+  }
+
+  .principal__sub {
+    font-size: 18px;
+  }
+
+  .principal__btn {
+    margin: 0;
+  }
+}
+
+
+/* --- BOTAO LILAS --- */
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 15px;
+  ;
+}
+
+.btn_roxo {
+  color: white;
+  background-color: #C083B9;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  transition: all .5s;
+  margin: 50px auto;
+}
+
+.btn_roxo:hover,
+.btn_roxo:focus {
+  transform: translateY(-1rem);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+  background-color: rgb(192, 156, 188);
+}
+
+.btn_roxo:active {
+  transform: translateY(-.5rem);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+}
+
+.btn_center {
+  margin: 0 auto;
+}
+
+
+/* --- FOOTER --- */
+
+.rodape {
+  padding-top: 0;
+}
+
+.rodape__principal {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.rodape__logo img {
+  max-width: 300px;
+}
+
+.rodape__navegacao>li {
+  font-size: 14px;
+}
+
+.rodape__redes-sociais img {
+  max-width: 32px;
+  margin-right: 8px;
+
+}
+
+
+
+/* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
+
+@media (min-width: 1440px) {
+  .navegacao__box {
+    max-width: 80%;
+  }
+
+  .header {
+    min-height: 90vh;
+  }
+
+  .navegacao__itens li {
+    font-size: 24px;
+    margin: 0 16px;
+  }
+
+  .principal {
+    max-width: 650px;
+  }
+
+  .principal__titulo {
+    font-size: 26px;
+    padding: 40px 200px 0px px;
+  }
+
+  .principal__sub {
+    font-size: 18px;
+    padding: 0px 400px 0px 0px;
+  }
+
+  .maravilhosas__perfil a img {
+    width: 280%;
+    border-radius: 10px;
+  }
+
+
+}
+
+.icone__img {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.demais__autoras img {
+  weight: 200px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: #674582;
+}
+
+.demais__autoras .icone__quadrado {
+  margin: 15px;
+}
+
+.demais__autoras {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    margin: 2px;
+}
+
+
+/* --- MEDIA QUERY --- */
+
+@media screen and (max-width: 1440px) {
+
+    /* .header {
+        background-position: left;
+    } */
+    .navegacao__menu-hamburguer {
+        display: block;
+    }
+
+    .navegacao__itens {
+        display: none;
+    }
+
+    .joseane {
+        background: cover;
+        padding: 20px 20px;
+    }
+
+    .principal__titulo {
+        font-size: 4.8rem;
+    }
+
+    .joseane__title {
+        font-size: 2.2rem;
+    }
+
+
+
+}
+
+@media screen and (min-width: 885px) {
+    .joseane {
+        padding: 20px 120px;
+    }
+
+    
+
+}

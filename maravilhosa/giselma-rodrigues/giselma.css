@@ -1,0 +1,520 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+    ;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+  width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+
+/* --- Mobile First--- */
+
+/* NAV  --- NAV  --- NAV */
+
+.navegacao {
+  background-color: #674582;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+  padding: 24px;
+  z-index: 99; 
+  position: fixed;
+  width: 100%;
+  color: white;
+}
+
+.navegacao__logo {
+  max-width: 200px;
+}
+
+.navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.navegacao__itens {
+  display: none;
+}
+
+.navegacao__menu-hamburguer img {
+  border-radius: 2px;
+}
+
+/* --- BOTAO --- */
+
+
+.principal__btn{
+
+}
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px ;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn_roxo {
+  color: white;
+  background-color: #C083B9;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  transition: all .5s;
+  margin-top: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 7%;
+}
+
+.btn_roxo:hover,
+.btn_roxo:focus {
+  transform: translateY(-06px);
+  box-shadow: 0 10px 10px rgba(0,0,0,.2);
+  background-color: rgb(192, 156, 188);
+}
+
+.btn_center {
+  margin: 0 auto;
+  
+}
+
+
+/* HEADER  --- HEADER  --- HEADER */
+
+.header {
+  min-height: 40px; 
+  height: 575px;
+  background: 
+            url(/maravilhosa/giselma-rodrigues/img/mae2.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: white;
+}
+
+.principal {
+  margin-bottom: 20px;
+}
+
+.principal__titulo {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  text-align:center;
+  color: white;
+}
+
+.principal__sub {
+  font-weight: 300;
+  margin: 10px 0 16px 0;
+  font-size: 18px;
+  
+}
+/* --- SECTION MARAVILHOSAS --- */
+
+.primeiroContainer{
+  display: flex;
+  text-align: inherit;
+  justify-content: center;
+  margin-bottom: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  width:43%;
+  color: #63458A;
+
+}
+
+.imgPeq{
+  width: 160px;
+  border-radius: 10px;
+  height:100px;
+}
+
+.paragrafo1{
+  margin-left: 20px;
+  color: #63458A;
+
+}
+
+.caixa {
+  width: 45%;
+  padding: 20px;
+  border: solid 1px rgba(158, 32, 158, 0.753);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  margin-bottom: 70px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #63458A;
+}
+
+.historia{
+    width: 50%;
+    margin-left: auto;
+  margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    color: #63458A;
+}
+
+.h2-historia{
+
+  color: #63458A;
+}
+
+.paragrafo-historia{
+    color: #63458A;
+    justify-content:center
+}
+
+.img-historia{
+  Width: 632px;
+  Height: 350px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+.autora{
+  background: #E4B7E5;
+  color: #63458A;
+  font-weight:600;
+  margin-top: 45px;
+  margin-bottom: 60px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+.img-autora{
+  width: 250px;
+  display: block;
+}
+
+.paragrafo-autora{
+display: block;
+margin:15px;
+text-align: initial;
+}
+
+.maravilhosas__titulo {
+  font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+  color: #63458a;
+  font-size: 20px;
+  text-align: center;
+  padding: 45px;
+}
+
+
+
+/* --- FOOTER --- */
+
+.rodape {
+  background-color: #323534;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.rodape__principal > * {
+  margin: 16px 0;
+}
+
+.rodape__navegacao > li {
+  font-size: 14px;
+  margin: 8px;
+}
+
+.rodape__navegacao a {
+  transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+  color: #C083B9;
+}
+
+.rodape__logo {
+  max-width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292A2A;
+  font-size: 14px;
+  opacity: 0.5;
+  text-align: center;
+  padding: 10px;
+}
+
+
+@media (max-width: 750px) {
+
+
+  .primeiroContainer{
+    width: 90%;
+  }
+}
+
+
+@media (max-width: 990px) {
+
+
+  .primeiroContainer{
+    text-align: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+  
+  .imgPeq{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+  .paragrafo1{
+
+  }
+
+  .caixa{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .historia{
+    margin-right: auto;
+    display:grid ;
+    margin-left: auto;
+  }
+
+  .img-historia{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 230px;
+  }
+
+
+  .h2-historia{
+
+    color: #63458A;
+    font-size: 20px;
+  }
+  
+  .paragrafo-historia{
+      color: #63458A;
+      justify-content:center;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 15px;
+  }
+
+  .autora{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img-autora{
+    width: 130px;
+  }
+
+  .paragrafo-autora{
+    display: block;
+    font-size:15px;
+    }
+
+    .btn_roxo{
+      margin-bottom: 10%;
+    }
+
+}
+
+/*  --- TABLET --- --- TABLET --- */
+
+@media (min-width: 768px) {
+  /* --- NAV --- */
+
+  
+
+  .navegacao__itens {
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+  }
+
+  .navegacao__nav { 
+    color: #fff;
+    margin-bottom: 0;
+  }
+    
+  .navegacao__itens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+    
+    .navegacao__itens li {
+    font-size: 14px;
+    margin: 0 9px;
+  }
+
+  .navegacao__itens.ativo {
+    display: block;
+    right: 0;
+    top: 85px;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 48px 0;
+    transition: right 1s;
+  }
+
+  .navegacao__itens li > a {
+    transition: all .2s;
+  }
+
+  .navegacao__itens li > a:hover {
+    color: #C083B9;
+  }
+    
+  .navegacao__menu-hamburguer {
+    display: none;
+  }
+
+  /* --- HEADER --- */
+   .header {
+      min-height: 75vh;
+      text-align: left;
+      padding: 10px 100px;
+    }
+
+    .principal__titulo {
+        font-size: 28px;
+    }
+    
+    .principal__sub {
+        font-size: 18px;
+    }
+
+
+/* --- FOOTER --- */
+
+  .rodape {
+  padding-top: 0;
+  }
+
+  .rodape__principal {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .rodape__logo img {
+  max-width: 300px;
+  }
+
+  .rodape__navegacao > li {
+   font-size: 14px;
+  }
+
+  .rodape__redes-sociais img {
+    max-width: 32px;
+    margin-right: 8px;
+  }
+}
+
+
+
+/* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
+
+@media (min-width: 1440px) {
+  .navegacao__box {
+    max-width: 80%;
+  }
+
+  .header {
+    min-height: 90vh;
+  }
+
+  .navegacao__itens li {
+   font-size: 24px;
+    margin: 0 16px;
+  }
+
+  .principal {
+    max-width: 650px;
+  }
+
+  .principal__titulo {
+    font-size: 26px;
+    padding: 40px 200px 0px px;
+  }
+  
+  .principal__sub {
+    font-size: 18px;
+    padding: 0px 400px 0px 0px;
+  }
+
+  .maravilhosas__perfil a img {
+    width: 280%;
+    border-radius: 10px;
+}
+
+
+}  
