@@ -486,6 +486,10 @@ h2 {
 
 @media (min-width: 1440px) {
   
+  .navegacao__box {
+    max-width: 1600px;
+  } 
+
   /* HEADER  --- HEADER  --- HEADER */
   .header {
     background: linear-gradient(rgba(255, 0, 255, 0.2), rgba(255, 0, 255, 0.2)), url(../../autora/mariana-herreros/img/maribanner.png);
