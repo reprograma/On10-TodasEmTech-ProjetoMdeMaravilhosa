@@ -1,0 +1,543 @@
+*{
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, solid;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+ 
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+  width: 100%;
+  }
+  
+  /* define o tamanho da caixa */
+  .container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  }
+
+  /* --- Mobile First--- */
+
+/* NAV  --- NAV  --- NAV */
+
+.navegacao {
+  background-color:rgb(70, 29, 88);
+  box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+  padding: 24px;
+  z-index: 99; 
+  position: fixed;
+  width: 100%;
+  }
+  
+  .navegacao__logo {
+  max-width: 200px;
+  }
+  
+  .navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  }
+  
+  /* define o tamanho da caixa */
+  .container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  }
+  
+  .navegacao__itens {
+  display: none;
+  }
+  
+  .navegacao__menu-hamburguer img {
+  border-radius: 2px;
+  margin-right: 50px;
+  }
+  /* HEADER  --- HEADER  --- HEADER */
+
+.header {
+  min-height: 40px; 
+  height: 500px;
+  background: linear-gradient(rgba(255, 0, 255, 0.2),
+                              rgba(255, 0, 255, 0.2)),
+            url(../img/bg-jaqueline.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: white;
+}
+
+.principal {
+  margin-bottom: 40px;
+
+}
+
+.principal__titulo {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 600px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+/* MAIN ----- MAIN ----- MAIN */
+
+.sobre {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px; 
+  }
+  
+  .sobre p {
+    color:rgb(95, 19, 38);
+    padding-top: 40px;
+    margin-right: 40px;
+    margin-left: 10px;
+    text-align:justify;
+    display: flex;
+  }
+
+
+  #img_circular {
+    display: flex;
+    border: solid;
+    border-radius: 10px;
+    border-color: #4f3d5e;
+    height: 200px;
+    width: 200px;
+   margin-top: 80px;
+   margin-left: 20px;
+   
+   
+  }
+
+  .frase p {
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color:rgb(102, 75, 81);
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .historia p{
+    text-align:justify;
+    margin-left:20px;
+    margin-right: 30px;
+    display: flow-root;
+  
+  }
+
+  .historia img {
+    height: 200px;
+    width: 300px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    border-radius:20px;
+    margin-right: 40px;
+    margin-left: 10px;
+    display: flex;
+  }
+
+  
+
+ .titulo__secundario {
+  text-align: center;
+  font-family:'Cookie';
+  font-size: 40px;
+  color: #681336;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+
+h3 {
+  text-align:center;
+  color: #681336;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  text-align: center;
+
+}
+
+
+ul {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+  text-align: center;
+  font-size: 20px;
+  color: #681336;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+li { 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  justify-content: space-between;
+}
+
+
+/* --- FOOTER --- */
+
+.rodape {
+  background-color:rgb(63, 3, 26); 
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 10px;
+}
+
+.rodape__principal > * {
+  margin: 16px 0;
+}
+
+.rodape__navegacao > li {
+  font-size: 14px;
+  margin: 8px;
+  margin-right: 30px;
+}
+
+.rodape__navegacao a {
+  transition: all .5s;
+  
+}
+
+.rodape__navegacao a:hover {
+  color: white; 
+}
+
+.rodape__logo {
+  max-width: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color:  #674582;
+  font-size: 20px;
+  opacity: 0.5;
+  text-align: center;
+  padding: 10px;
+}
+
+h6 {
+margin-right: 5px;
+}
+
+/*  --- TABLET --- --- TABLET --- */
+
+@media (min-width: 768px) {
+  /* --- NAV --- */
+  .navegacao__itens {
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+    margin-right: 50px;
+  }
+
+  .navegacao__nav { 
+    color: #fff;
+    margin-bottom: 0;
+  }
+    
+  .navegacao__itens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+    
+  .navegacao__itens li {
+    font-size: 20px;
+    margin: 9px;
+  }
+
+  .navegacao__itens.ativo {
+    display: block;
+    right: 0;
+    top: 85px;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 48px 0;
+    transition: right 1s;
+  }
+
+  .navegacao__itens li > a {
+    transition: all .2s;
+  }
+
+  .navegacao__itens li > a:hover {
+    color: white; 
+
+    
+  }
+  .navegacao__menu-hamburguer {
+    display: none;
+  }
+
+ 
+    /* MAIN ----- MAIN ----- MAIN */
+
+    .titulo__secundario {
+      
+      font-size: 80px;
+      
+    }
+
+
+  .sobre p {
+    padding-top: 80px;
+    margin-right: 60px;
+    margin-left: 30px;
+    font-size: 30px;
+    margin-bottom: 30px;
+  
+
+  }
+
+  #img_circular {
+    height: 400px;
+    width: 400px;
+   margin-top: 100px;
+   margin-left: 50px;
+  }
+
+  .frase p {
+    font-size: 25px;
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  
+  .historia p{
+    font-size: 25px;
+  
+  }
+
+  .historia img {
+    height: 400px;
+    width: 700px;
+  }
+
+  .titulo__autora {
+    font-size: 40px;
+  }
+
+
+.autora p{ 
+  font-size: 18px;
+  letter-spacing: 8px;
+ 
+}
+
+.autora img {
+  height: 200px;
+  width: 200px; 
+  margin-left:200px;
+  margin-right:200px;
+
+}
+
+  h3 {
+    font-size: 40px;
+
+  }
+
+   /* --- BOTAO --- */
+  .botao {
+    max-width: 300px;
+    font-size: 20px;
+    padding: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: flex;
+  margin-left: 250px;
+  
+    
+  }
+  
+
+  /* --- FOOTER --- */
+
+
+  h6 {
+   font-size: 16px;
+    }
+
+  
+      .rodape__principal {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+      }
+    
+      
+    
+      .rodape__navegacao > li {
+       font-size: 16px;
+      }
+    
+      .rodape__redes-sociais img {
+        max-width: 50px;
+        margin-right: 8px;
+      }
+/* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
+
+@media (min-width: 1440px) {
+  .navegacao__box {
+    max-width: 80%;
+  }
+
+  .header {
+    min-height: 90vh;
+  }
+
+  .navegacao__itens li {
+   font-size: 24px;
+    margin-right: 20px;
+  }
+
+
+  .principal__titulo {
+    font-size: 80px;
+   text-align: center;
+  }
+
+  .titulo__secundario {
+    font-size: 100px;
+  }
+
+
+    .sobre p {
+    margin-left: 80px;
+    margin-top: 250px;
+    font-size: 40px;
+    }
+  
+  
+    #img_circular {
+      height: 700px;
+      width: 700px;
+     margin-top: 200px;
+  
+     margin-left: 200px;
+    }
+  
+    .frase p {
+      margin-left: 90px;
+      margin-right: 90px;
+      font-size: 40px; 
+    }
+  
+    .historia p {
+    font-size: 40px;
+    margin-left: auto;
+    
+    }
+  
+    .historia img {
+      height: 800px;
+      width: 2000px;
+      
+    }
+  
+
+  h3 {
+  font-size: 60px;
+    margin-top: 70px;
+  
+  }
+  
+  .titulo__autora {
+    font-size: 60px;
+   
+  }
+  
+  .autora p{ 
+
+    font-size: 25px;
+    padding: 40px;
+   
+    
+  }
+  
+  .autora img {
+    margin-left: 500px;
+    margin-right: 500px;
+    align-items: center;
+  
+  }
+  
+  
+  /* --- BOTAO --- */
+  
+  .botao {
+  
+    font-size: 20px;
+    padding: 30px;
+  align-items: center;
+  margin-left: 600px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+    
+  }
+
+  h6 {
+    font-size: 25px;
+     }
+ 
+   
+       .rodape__principal {
+         flex-direction: row;
+         justify-content: space-around;
+         align-items: center;
+         width: 100%;
+       }
+    
+     
+       .rodape__navegacao > li {
+        font-size: 20px;
+       }
+     
+       .rodape__redes-sociais img {
+         max-width: 50px;
+         margin-right: 8px;
+       }
+
+}  
