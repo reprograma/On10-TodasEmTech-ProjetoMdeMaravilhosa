@@ -1,25 +1,27 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    margin: 0;
-    text-decoration: none;
-    color: inherit;
+  box-sizing: border-box;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
 }
 
 ul {
-    padding: 0;
+  padding: 0;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 /* define que as imagens tem que ter o tamanho máximo da div mãe */
+
 .img-responsive {
   width: 100%;
 }
 
 /* define o tamanho da caixa */
+
 .container {
   margin: 0 auto;
   width: 100%;
@@ -28,87 +30,239 @@ li {
 
 /* --- Mobile First--- */
 
-
-
 /* NAV  --- NAV  --- NAV */
 
 .navegacao {
-    background-color: #674582;
-    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
-    padding: 24px;
-    z-index: 99; 
-    position: fixed;
-    width: 100%;
-  }
-  
-  .navegacao__logo {
-    max-width: 200px;
-  }
-  
-  .navegacao__box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-  }
-  
-  /* define o tamanho da caixa */
-  .container {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 960px;
-  }
-  
-  .navegacao__itens {
-    display: none;
-  }
-  
-  .navegacao__menu-hamburguer img {
-    border-radius: 2px;
-  }
+  background-color: #674582;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, .2);
+  padding: 24px;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+}
 
-  
+.navegacao__logo {
+  max-width: 200px;
+}
+
+.navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+}
+
+/* define o tamanho da caixa */
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.navegacao__itens {
+  display: none;
+}
+
+.navegacao__menu-hamburguer img {
+  border-radius: 2px;
+}
 
 /* HEADER  --- HEADER  --- HEADER */
 
 .header {
-  min-height: 40px; 
+  min-height: 40px;
   height: 500px;
-  background: linear-gradient(rgba(255, 0, 255, 0.2),
-                              rgba(255, 0, 255, 0.2)),
-            url(../../autora/mariana-herreros/img/marianah-foto.jpeg);
+  background: linear-gradient(rgba(255, 0, 255, 0.2), rgba(255, 0, 255, 0.2)), url(../../autora/mariana-herreros/img/marianah-foto.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   align-items: flex-end;
-  text-align: center;
+  align-items: center;
   color: white;
 }
 
 .principal {
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
 }
 
 .principal__titulo {
-height: 37px;
-width: 259px;
-left: 49px;
-top: 365px;
-border-radius: nullpx;
-height: 37px;
-width: 259px;
-left: 49px;
-top: 365px;
-border-radius: nullpx;
-margin-bottom: 80px;
-display: flex;
-justify-content: center;
-margin-left: 10%;
-
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
 }
 
-
 /* --- main e div mãe--- */
+
+.introducao {
+  display: flex;
+  justify-content: center;
+  color: #63458A;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.sobre-autora {
+  display: flex;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 40px;
+  color: #63458A;
+  align-content: center;
+}
+
+.foto-perfil {
+  height: 94px;
+  width: 94px;
+  left: 49px;
+  top: 571px;
+  border-radius: 5px;
+}
+
+.container_redes_sociais {
+  display: flex;
+  justify-content: center;
+}
+
+.redes-sociais {
+  display: flex;
+  display: inline;
+  font-size: 14px;
+  color: #63458A;
+  font-weight: bold;
+  padding: 5px;
+}
+
+p {
+  height: 76px;
+  width: 154px;
+  left: 159px;
+  top: 545px;
+  border-radius: nullpx;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  line-height: 11px;
+  letter-spacing: 0em;
+  font-weight: 400;
+  margin: 40px;
+  margin-top: 6px;
+}
+
+.fotomaravilhosa {
+  height: 94px;
+  width: 94px;
+  left: 49px;
+  top: 571px;
+  border-radius: 5px;
+}
+
+hr {
+  height: 0px;
+  width: 200px;
+  margin-left: 80px;
+  top: 711px;
+  border: 1px solid;
+  color: #63458A;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.final {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  color: #63458A;
+  margin-bottom: 20px;
+}
+
+#titulo-maravilhosas {
+  margin-left: 85px;
+  margin-top: 10px;
+  color: #63458A;
+}
+
+.redes-sociais-titulo {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #63458A;
+  margin-left: 20px;
+}
+
+.separador>p {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: 49px;
+  width: 263px;
+  height: 70px;
+  color: #63458A;
+  margin-top: 20px;
+}
+
+.separador-foto {
+  border-radius: 5px;
+  width: 264px;
+  left: 49px;
+  top: 980px;
+  display: flex;
+  flex-direction: center;
+  margin-left: 50px;
+}
+
+.titulo-foto {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 120px;
+  color: #63458A;
+  margin-top: 10px;
+}
+
+/* --- BOTAO --- */
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn_roxo {
+  color: white;
+  background-color: #C083B9;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  transition: all .5s;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.btn_roxo:hover, .btn_roxo:focus {
+  transform: translateY(-06px);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+  background-color: rgb(192, 156, 188);
+}
+
+.btn_center {
+  margin: 0 auto;
+}
 
 /* --- FOOTER --- */
 
@@ -126,14 +280,15 @@ margin-left: 10%;
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  margin-bottom: 30px;
 }
 
-.rodape__principal > * {
+.rodape__principal>* {
   margin: 16px 0;
 }
 
-.rodape__navegacao > li {
-  font-size: 14px;
+.rodape__navegacao>li {
+  font-size: 19px;
   margin: 8px;
 }
 
@@ -148,34 +303,41 @@ margin-left: 10%;
 .rodape__logo {
   max-width: 200px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.rodape__redes-sociais>a {
+  margin-left: 10px;
 }
 
 .rodape__cc {
   width: 100%;
   background-color: #292A2A;
-  font-size: 14px;
   opacity: 0.5;
-  text-align: center;
-  padding: 10px;
+}
+
+.rodape__cc>p {
+  width: 100%;
+  margin-left: 10px;
+  padding: 30px;
+  margin-bottom: 0px;
+  font-size: 10px;
 }
 
 /*  --- TABLET --- --- TABLET --- */
 
 @media (min-width: 768px) {
-  /* --- NAV --- */
+  /* NAV  --- NAV  --- NAV */
   .navegacao__itens {
     position: static;
     display: flex;
     padding: 0;
     width: auto;
   }
-
-  .navegacao__nav { 
+  .navegacao__nav {
     color: #fff;
     margin-bottom: 0;
   }
-    
   .navegacao__itens ul {
     display: flex;
     justify-content: space-around;
@@ -183,12 +345,10 @@ margin-left: 10%;
     align-items: center;
     text-align: center;
   }
-    
-    .navegacao__itens li {
+  .navegacao__itens li {
     font-size: 14px;
     margin: 0 9px;
   }
-
   .navegacao__itens.ativo {
     display: block;
     right: 0;
@@ -199,102 +359,195 @@ margin-left: 10%;
     padding: 48px 0;
     transition: right 1s;
   }
-
-  .navegacao__itens li > a {
+  .navegacao__itens li>a {
     transition: all .2s;
   }
-
-  .navegacao__itens li > a:hover {
+  .navegacao__itens li>a:hover {
     color: #C083B9;
   }
-    
   .navegacao__menu-hamburguer {
     display: none;
   }
 
-  /* --- HEADER --- */
-   .header {
-      min-height: 75vh;
-      text-align: left;
-      padding: 10px 100px;
-    }
+  .navegacao__box {
+    justify-content: space-between;
+    width: 90%;
+  }
+  /* HEADER  --- HEADER  --- HEADER */
+  .header {
+    background: linear-gradient(rgba(255, 0, 255, 0.2), rgba(255, 0, 255, 0.2)), url(../../autora/mariana-herreros/img/maribanner2.png);
+    color: white;
+    background-size: cover;
+  }
+  /* --- main e div mãe--- */
 
-    .principal__titulo {
-        font-size: 28px;
-    }
-    
-    .principal__sub {
-        font-size: 18px;
-    }
+  hr {
+    height: 0px;
+    width: 200px;
+    margin-left: 280px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  } 
 
-    .principal__btn {
-        margin: 0;
-    }
-}
-  
-
-/* --- FOOTER --- */
-
-  .rodape {
-  padding-top: 0;
+  h2 {
+    margin-left: 200px;
+  }
+  .foto-perfil {
+    height: 189px;
+    width: 200px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+  }
+  .introducao {
+    display: flex;
+    justify-content: center;
+    color: #63458A;
+    padding: 5px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  .sobre-autora {
+    display: flex;
+    margin-left: 40px;
+    color: #63458A;
+    align-content: center;
+  }
+  p {
+    height: 89px;
+    width: 500px;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: 0em;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-bottom: 80px;
+  }
+  .separador>p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 80px;
+    width: 600px;
+    height: 50px;
+    color: #63458A;
+  }
+  .separador-foto {
+    border-radius: 5px;
+    width: 664px;
+    height: 83;
+    margin-left: 50px;
+  }
+  .titulo-foto {
+    font-size: 14px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+  }
+  .final {
+    width: 150px;
+    display: inline-block;
   }
 
+  #titulo-maravilhosas {
+    margin-left: 280px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .redes-sociais-titulo {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+  /* --- FOOTER --- */
   .rodape__principal {
+    display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    width: 90%;
+  }
+  .rodape__cc {
     width: 100%;
+    background-color: #292A2A;
+    opacity: 0.5;
   }
-
-  .rodape__logo img {
-  max-width: 300px;
+  .rodape__cc>p {
+    width: 100%;
+    font-size: 10px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
   }
-
-  .rodape__navegacao > li {
-   font-size: 14px;
-  }
-
-  .rodape__redes-sociais img {
-    max-width: 32px;
-    margin-right: 8px;
-  }
-
-
+}
 
 /* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
 
 @media (min-width: 1440px) {
+  
   .navegacao__box {
-    max-width: 80%;
-  }
+    max-width: 1600px;
+  } 
 
+  /* HEADER  --- HEADER  --- HEADER */
   .header {
-    min-height: 90vh;
+    background: linear-gradient(rgba(255, 0, 255, 0.2), rgba(255, 0, 255, 0.2)), url(../../autora/mariana-herreros/img/maribanner.png);
+    color: white;
+    background-size: cover;
   }
 
-  .navegacao__itens li {
-   font-size: 24px;
-    margin: 0 16px;
-  }
+  /* --- main e div mãe--- */
 
-  .principal {
-    max-width: 650px;
-  }
+ 
+  hr {
+   margin-left: 380px;  
+  } 
 
-  .principal__titulo {
-    font-size: 26px;
-    padding: 40px 200px 0px px;
+
+  h2 {
+    margin-left: 310px;
   }
   
-  .principal__sub {
-    font-size: 18px;
-    padding: 0px 400px 0px 0px;
+  .separador>p {
+    height: 162px;
+    width: 1000px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    margin-left: 0px;
+    margin-right: 700px;
+    margin-bottom: 10px;
+  }
+  
+  .separador-foto {
+    height: 393px;
+    width: 1000px;
+    left: 385px;
+    top: 1821px;
+    border-radius: 8px;
+    margin-left: 0px;
+    margin-right: 700px;
   }
 
-  .maravilhosas__perfil a img {
-    width: 280%;
-    border-radius: 10px;
+  .titulo-foto {
+    font-size: 14px;
+    margin-left: 400px;
+    margin-bottom: 10px;
+  }
+
+  .final {
+    width: 150px;
+    display: inline-block;
+    margin-left: 40px;
+  }
+
+  #titulo-maravilhosas {
+    margin-left: 380px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  
 }
-
-
-}  
