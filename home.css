@@ -103,7 +103,7 @@ li {
   height: 500px;
   background: linear-gradient(rgba(255, 0, 255, 0.2),
                               rgba(255, 0, 255, 0.2)),
-            url(../imagens/bg-banner-claro.png);
+            url(./imagens/bg-banner-claro.png);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -328,6 +328,7 @@ li {
     margin-right: 8px;
   }
 
+}
 
 /* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
 
@@ -365,5 +366,4 @@ li {
 }
 
 
-}  
-
+}

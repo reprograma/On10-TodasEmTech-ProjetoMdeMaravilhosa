@@ -1,0 +1,559 @@
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+
+.img-responsive {
+  width: 100%;
+}
+
+/* define o tamanho da caixa */
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+/* --- Mobile First--- */
+
+/* NAV  --- NAV  --- NAV */
+
+.navegacao {
+  background-color: #674582;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, .2);
+  padding: 24px;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+}
+
+.navegacao__logo {
+  max-width: 200px;
+}
+
+.navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+/* define o tamanho da caixa */
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.navegacao__itens {
+  display: none;
+}
+
+.navegacao__menu-hamburguer img {
+  border-radius: 2px;
+}
+
+/* HEADER  --- HEADER  --- HEADER */
+
+.header {
+  min-height: 40px;
+  height: 500px;
+  background: linear-gradient(rgba(255, 0, 255, 0.2), rgba(255, 0, 255, 0.2)), url(../../maravilhosa/madre-tereza/img/madrebanner2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: white;
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+.principal__titulo {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 100px;
+}
+
+/* --- main e div mãe--- */
+
+.introducao {
+  display: flex;
+  justify-content: center;
+  color: #63458A;
+  padding: 0px;
+  margin-left: 24px;
+  margin-top: 30px;
+}
+
+.sobre-autora {
+  display: flex;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 50px;
+  color: #63458A;
+  align-content: center;
+}
+
+.foto-perfil {
+  height: 94px;
+  width: 94px;
+  left: 49px;
+  top: 571px;
+  border-radius: 5px;
+}
+
+#conteudo-caixa {
+  width: 80%;
+  border-radius: 0px;
+  font-family: Montserrat;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: solid 1px #63458A;
+  padding: 5px;
+  color: #63458A;
+}
+
+p {
+  height: 76px;
+  width: 154px;
+  left: 159px;
+  top: 545px;
+  border-radius: nullpx;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  line-height: 11px;
+  letter-spacing: 0em;
+  font-weight: 400;
+  margin: 40px;
+  margin-top: 6px;
+}
+
+h2 {
+  color: #63458A;
+  margin-left: 110px;
+}
+
+.separador>p {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: 49px;
+  width: 263px;
+  height: 70px;
+  color: #63458A;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.separador-foto {
+  height: 90px;
+  width: 269px;
+  left: 1712px;
+  top: 976px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: center;
+  margin-left: 50px;
+}
+
+.sobre-a-madre>p {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: 49px;
+  width: 263px;
+  height: 70px;
+  color: #63458A;
+  margin-top: 20px;
+}
+
+.rodapeautora {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  background: #E4B7E5;
+  color: #FFF;
+  height: 151px;
+  left: 0px;
+  top: 1447px;
+  border-radius: 0px;
+ margin-bottom: 30px;
+}
+
+.foto-rodapeautora {
+  display: flex;
+  height: 94px;
+  width: 94px;
+  left: 49px;
+  top: 1476px;
+  border-radius: 2px;
+}
+
+/* --- BOTAO --- */
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn_roxo {
+  color: white;
+  background-color: #C083B9;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  transition: all .5s;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.btn_roxo:hover, .btn_roxo:focus {
+  transform: translateY(-06px);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+  background-color: rgb(192, 156, 188);
+}
+
+.btn_center {
+  margin: 0 auto;
+}
+
+/* --- FOOTER --- */
+
+.rodape {
+  background-color: #323534;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.rodape__principal>* {
+  margin: 16px 0;
+}
+
+.rodape__navegacao>li {
+  font-size: 19px;
+  margin: 8px;
+}
+
+.rodape__navegacao a {
+  transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+  color: #C083B9;
+}
+
+.rodape__logo {
+  max-width: 200px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.rodape__redes-sociais>a {
+  margin-left: 10px;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292A2A;
+  opacity: 0.5;
+}
+
+.rodape__cc>p {
+  width: 100%;
+  margin-left: 10px;
+  padding: 30px;
+  margin-bottom: 0px;
+  font-size: 10px;
+}
+
+/*  --- TABLET --- --- TABLET --- */
+
+@media (min-width: 768px) {
+   /* NAV  --- NAV  --- NAV */
+   .navegacao__itens {
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+  }
+  .navegacao__nav {
+    color: #fff;
+    margin-bottom: 0;
+  }
+  .navegacao__itens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .navegacao__itens li {
+    font-size: 14px;
+    margin: 0 9px;
+  }
+  .navegacao__itens.ativo {
+    display: block;
+    right: 0;
+    top: 85px;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 48px 0;
+    transition: right 1s;
+  }
+  .navegacao__itens li>a {
+    transition: all .2s;
+  }
+  .navegacao__itens li>a:hover {
+    color: #C083B9;
+  }
+  .navegacao__menu-hamburguer {
+    display: none;
+  }
+
+  .navegacao__box {
+    justify-content: space-between;
+    width: 90%;
+  }
+
+/* --- main e div mãe--- */
+
+hr {
+  margin-left: 280px;
+}
+
+  .principal__titulo {
+  margin-bottom: 150px;
+  }
+
+  .introducao {
+    display: flex;
+    justify-content: center;
+    color: #63458A;
+    padding: 5px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+  .sobre-autora {
+    display: flex;
+    margin-left: 40px;
+    color: #63458A;
+    align-content: center;
+  }
+
+  .foto-perfil {
+    height: 189px;
+    width: 200px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    height: 89px;
+    width: 500px;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: 0em;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-bottom: 80px;
+  }
+
+  #conteudo-caixa {
+    width: 70%;
+    border-radius: 0px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: solid 1px #63458A;
+    padding: 5px;
+    color: #63458A;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .separador > p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 80px;
+    width: 600px;
+    height: 50px;
+    color: #63458A;
+  }
+
+  .separador-foto {
+    margin-top: 90px;
+    border-radius: 5px;
+    width: 500px;
+    height: 168px;
+    margin-left: 130px;
+  }
+
+  .rodapeautora {
+   display: flex;
+   justify-content: center;
+  }
+
+  .titulo-foto{
+    margin-left: 30px;
+  }
+
+  .sobre-a-madre > p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 80px;
+    width: 600px;
+    height: 50px;
+    color: #63458A;
+  }
+
+  .sobre-a-madre {
+    padding-bottom: 5px;
+  }
+
+  /* --- FOOTER --- */
+  .rodape__principal {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+  }
+  .rodape__cc {
+    width: 100%;
+    background-color: #292A2A;
+    opacity: 0.5;
+  }
+  .rodape__cc>p {
+    width: 100%;
+    font-size: 10px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+}
+
+/* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
+
+@media (min-width: 1440px) {
+
+  .container {
+    max-width: 1600px;
+  }
+
+ /* HEADER  --- HEADER  --- HEADER */
+
+  .header {
+    background: linear-gradient(rgba(255, 0, 255, 0.2), rgba(255, 0, 255, 0.2)), url(../../maravilhosa/madre-tereza/img/madrebanner3.png);
+    color: white;
+    background-size: cover;
+  }
+/* --- main e div mãe--- */
+
+  .sobre-autora {
+    display:flex;
+    justify-content: center;
+  }
+
+  .caixa {
+    display: flex;
+    justify-content: center;
+  }
+
+  #conteudo-caixa {
+    padding: 30px;
+  }
+
+  h2 {
+    margin-left: 700px;
+  }
+
+  .separador > p {
+  margin-left: 250px;
+  width: 1000px;
+  }
+
+  .separador-foto {
+    margin-left: 500px;
+  }
+
+  .rodapeautora {
+    display: flex;
+    justify-content: center; 
+}
+
+.sobre-a-madre > p {
+  margin-left: 250px;
+  width: 1000px;
+}
+
+.sobre-a-madre {
+  margin-top: 50px;
+}
+
+}
