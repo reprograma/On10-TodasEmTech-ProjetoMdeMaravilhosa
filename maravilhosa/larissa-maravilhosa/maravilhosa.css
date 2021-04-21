@@ -35,7 +35,6 @@ li {
   box-shadow: 0px 5px 5px rgba(0,0,0,.2);
   padding: 24px;
   z-index: 99; 
-  position: fixed;
   width: 100%;
 }
 
@@ -99,14 +98,15 @@ li {
 /* HEADER  --- HEADER  --- HEADER */
 
 .header {
-  min-height: 40px; 
-  height: 500px;
+  /* min-height: 40px;  */
+  height: 520px;
   background: linear-gradient(rgba(255, 0, 255, 0.2),
                               rgba(255, 0, 255, 0.2)),
-            url(imagens/deusa.jpg);
+            url(imagens/working.jpg);
 
   background-size:auto 100%;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-position:center; 
   display: flex;
   align-items: flex-end;
   text-align: center;
@@ -119,55 +119,119 @@ li {
 
 .principal__titulo {
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 1.3rem;
   font-weight: 900;
-}
-
-.principal__sub {
-  font-weight: 300;
-  margin: 10px 0 16px 0;
-  font-size: 18px;
-  
-}
-/* --- SECTION MARAVILHOSAS --- */
-
-.maravilhosas__titulo {
-  font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
-  color: #63458a;
-  font-size: 20px;
   text-align: center;
-  padding: 30px 0px 0px 30px;
+  height: 5rem;
+  padding: 0 0.8rem 0 0.8rem;
 }
-
-.maravilhosas__box {
+/* --- SOBRE MARAVLHOSA --- */
+main h1 {
+  width: 100%;
+  text-align: center;
+  color: #674582;
+  font-size: 1.5rem;
+  padding: 3rem 1rem 3rem 1rem;
+}
+.resumo__maravilhosa{
   display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  color: #63458a;
+  padding: 0rem 3rem 0rem 3rem;
+  width: 100%;
+  align-items: center;
 }
-
-.maravilhosas__perfil {
-  max-width: 120px;
-  margin: 48px;
-}
-
-.maravilhosas__perfil a img {
-  width: 300%;
-  border-radius: 10px;
-}
-
-.maravilhosas__perfil p {
+.photo__perfil{
+  width: 50%;
   text-align: center;
 }
-
-.maravilhosas__perfil a:hover {
-  text-decoration: underline;
+.photo__perfil img{
+  max-width: 100%;
+  max-height: 6.5rem;
+  border-radius: 5px;
 }
-
-.maravilhosas__perfil a:hover img {
-  box-shadow: 0 3px 10px rgba(0,0,0,.2);
+.sobre__maravilhosa{
+  width: 100%;
+  padding-left: 1rem;
 }
-
+.sobre__maravilhosa p{
+  font-size: 0.7rem;
+  color: #674582;
+  text-align: justify;
+  line-height: 1rem;
+}
+.quadro__maravilhosa{
+  margin: 2.5rem 3rem;
+  border: 1px solid #674582;
+  padding:1rem;
+  box-shadow: 1px 1px 9px rgb(0 0 0 / 20%) inset,1px 1px 9px rgb(0 0 0 / 20%);
+  font-size: 0.6rem;
+  color: #674582;
+}
+.quadro__maravilhosa h2{
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.quadro__maravilhosa p{
+  text-align: justify;
+  font-weight: lighter;
+  line-height: 1rem;
+}
+.historia__maravilhosa{
+  display: inline-block;
+  padding: 0rem 3rem 0rem 3rem;
+  width: 100%;
+}
+.historia__maravilhosa h2{
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: #674582;
+}
+.historia__maravilhosa p{
+  text-align: justify;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+  color: #674582;
+  font-weight: lighter;
+  line-height: 1rem;
+}
+.historia__maravilhosa img{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.autora{
+  display: flex;
+  width: 100%;
+  background-color: #c99ac3;
+  margin: 1rem 0 1rem 0;
+  padding: 1rem 3rem 1rem 3rem;
+  align-items: center;
+}
+.img__autora{
+  width: 70%;
+  text-align: center;
+}
+.img__autora img{
+  max-width: 100%;
+  max-height: 5.5rem;
+  border-radius: 5px;
+}
+.text__autora{
+  width: 100%;
+  font-size: 0.7rem;
+  color: #674582;
+  line-height: 1rem;
+}
+.botao a{
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  color: white;
+  background-color: #C083B9;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  margin: 2rem auto;
+  border-radius: 0.3rem;
+}
 /* --- FOOTER --- */
 
 .rodape {
@@ -272,37 +336,70 @@ li {
 
   /* --- HEADER --- */
    .header {
-      min-height: 75vh;
-      text-align: left;
-      padding: 10px 100px;
+    padding: 10px 100px;
+    text-align: left;
+    width: 100%;
+    min-width: 768px;
+    max-width: auto;
+    background-repeat: no-repeat;
+    background-position: initial;
+    display: flex;
+    color: white;
+    background-size: 100%;
     }
 
     .principal__titulo {
-        font-size: 28px;
+        font-size: 1.7rem;
     }
     
-    .principal__sub {
-        font-size: 18px;
+
+    /* MAIN */
+    main h1{
+      font-size: 2rem;
     }
 
-    .principal__btn {
-        margin: 0;
-    }
-
-  /* --- SECTION mMARAVILHOSA --- */
-    
-    .maravilhosas__box > div {
-        max-width: 74px;
-        margin: 84px;
-    }
-
-    .maravilhosas__perfil p {
-        font-size: 18px;
-        text-align: center;
-        margin-top: 14px;
-    }
-
-
+  .resumo__maravilhosa{
+    padding: 0rem 8rem 0rem 8rem;
+  }
+  .photo__perfil{
+    width: 40%;
+  }
+  .photo__perfil img{
+    max-height: 8.5rem;
+  }
+  .sobre__maravilhosa p{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+  .quadro__maravilhosa {
+    margin: 2.5rem 8rem;
+   font-size: 0.8rem;
+   padding: 2rem 3rem 3rem 3rem;
+  }
+  .quadro__maravilhosa h2 {
+    margin-bottom: 2.5rem;
+}
+  .quadro__maravilhosa p{
+    line-height: 1.5rem;
+  }
+  .historia__maravilhosa{
+    padding: 0rem 8rem 0rem 8rem;
+  }
+  .historia__maravilhosa p{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+  .autora{
+    padding: 1rem 8rem 1rem 8rem;
+  }
+  .img__autora img{
+    max-height: 8.5rem;
+  }
+  .text__autora{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+ 
 /* --- FOOTER --- */
 
   .rodape {
@@ -346,25 +443,63 @@ li {
    font-size: 24px;
     margin: 0 16px;
   }
-
-  .principal {
-    max-width: 650px;
+  .principal__titulo{
+    font-size: 2.9rem;
   }
-
-  .principal__titulo {
-    font-size: 26px;
-    padding: 40px 200px 0px px;
+  main h1{
+    font-size: 3rem;
+    padding: 5rem 1rem;  
   }
-  
-  .principal__sub {
-    font-size: 18px;
-    padding: 0px 400px 0px 0px;
+  .resumo__maravilhosa {
+    padding: 0rem 10rem 0rem 10rem;
   }
-
-  .maravilhosas__perfil a img {
-    width: 280%;
-    border-radius: 10px;
+  .photo__perfil img{
+    max-height: 16.5rem;
   }
+  .sobre__maravilhosa p {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+  .quadro__maravilhosa {
+    margin: 6.5rem 10rem 4.5rem 10rem;
+    font-size: 1.5rem;
+    padding: 4rem 5rem 5rem 5rem;  
+  }
+  .quadro__maravilhosa h2 {
+    margin-bottom: 1.5rem;
+  }
+  .quadro__maravilhosa p {
+      line-height: 2rem;
+  }
+  .historia__maravilhosa {
+    padding: 2rem 10rem 2rem 10rem;
+  }
+  .historia__maravilhosa h2{
+    font-size: 2.5em;
+    margin-bottom: 1.5rem;
+  }
+  .historia__maravilhosa p{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .historia__maravilhosa img{
+    padding: 2rem 3rem 3rem 3rem;
+  }
+  .img__autora img {
+    max-height: 13.5rem;
+  }
+  .img__autora{
+    width: 40%;
+  }
+  .text__autora{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .botao a {
+    padding: 1.3rem;
+    max-width: 18rem;
+    margin: 5rem auto;
+}
 
 
 }  

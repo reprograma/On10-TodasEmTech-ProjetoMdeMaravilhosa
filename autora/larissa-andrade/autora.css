@@ -35,7 +35,6 @@ li {
   box-shadow: 0px 5px 5px rgba(0,0,0,.2);
   padding: 24px;
   z-index: 99; 
-  position: fixed;
   width: 100%;
 }
 
@@ -103,68 +102,114 @@ li {
   height: 500px;
   background: linear-gradient(rgba(255, 0, 255, 0.2),
                               rgba(255, 0, 255, 0.2)),
-            url(../imagens/bg-banner-claro.png);
+            url(./imagens/altodase.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   align-items: flex-end;
   text-align: center;
   color: white;
+  justify-content: space-around;
 }
 
-.principal {
+
+.titulo{
+  text-transform: uppercase;
+  font-weight: bold;
   margin-bottom: 20px;
 }
-
 .principal__titulo {
   text-transform: uppercase;
-  font-size: 22px;
-  font-weight: 900;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
-
-.principal__sub {
-  font-weight: 300;
-  margin: 10px 0 16px 0;
-  font-size: 18px;
-  
-}
-/* --- SECTION MARAVILHOSAS --- */
-
-.maravilhosas__titulo {
-  font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
-  color: #63458a;
-  font-size: 20px;
+/* --- MAIN --- */
+main h1 {
+  width: 100%;
   text-align: center;
-  padding: 30px 0px 0px 30px;
+  color: #674582;
+  font-size: 1.5rem;
+  padding: 3rem 1rem 3rem 1rem;
 }
-
-.maravilhosas__box {
+.resumo__autora{
   display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  color: #63458a;
+  padding: 0rem 3rem 0rem 3rem;
+  width: 100%;
+  align-items: center;
 }
-
-.maravilhosas__perfil {
-  max-width: 120px;
-  margin: 48px;
-}
-
-.maravilhosas__perfil a img {
-  width: 300%;
-  border-radius: 10px;
-}
-
-.maravilhosas__perfil p {
+.photo__perfil{
+  width: 50%;
   text-align: center;
 }
-
-.maravilhosas__perfil a:hover {
-  text-decoration: underline;
+.photo__perfil img{
+  max-width: 100%;
+  max-height: 6.5rem;
+  border-radius: 5px;
 }
-
-.maravilhosas__perfil a:hover img {
-  box-shadow: 0 3px 10px rgba(0,0,0,.2);
+.sobre__autora{
+  width: 100%;
+  padding-left: 1rem;
+}
+.sobre__autora p{
+  font-size: 0.7rem;
+  color: #674582;
+  text-align: justify;
+  line-height: 1rem;
+}
+.sobre__Mmaravilhosa{
+  display: inline-block;
+  padding: 3rem;
+  width: 100%;
+}
+.sobre__Mmaravilhosa h2{
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #674582;
+}
+.sobre__Mmaravilhosa p{
+  text-align: justify;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+  color: #674582;
+  font-weight: lighter;
+  line-height: 1rem;
+}
+.outras__maravilhosas{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.outras__maravilhosas h2{
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: #674582;
+}
+.maravilhosa{
+  padding: 3rem;
+}
+.img__maravilhosa img{
+  height: 15rem;
+  border-radius: 5px;
+  align-items: center;
+}
+.nome__maravilhosa{
+  font-size: 0.7rem;
+    color: #674582;
+    line-height: 1rem;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+}
+.botao a{
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 0.6rem;
+  color: white;
+  background-color: #C083B9;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  margin: 2rem auto;
+  border-radius: 0.3rem;
 }
 
 /* --- FOOTER --- */
@@ -276,31 +321,19 @@ li {
       padding: 10px 100px;
     }
 
-    .principal__titulo {
-        font-size: 28px;
-    }
-    
-    .principal__sub {
-        font-size: 18px;
-    }
 
-    .principal__btn {
-        margin: 0;
-    }
-
-  /* --- SECTION mMARAVILHOSA --- */
-    
-    .maravilhosas__box > div {
-        max-width: 74px;
-        margin: 84px;
-    }
-
-    .maravilhosas__perfil p {
-        font-size: 18px;
-        text-align: center;
-        margin-top: 14px;
-    }
-
+  /* --- MAIN --- */
+  .sobre__autora p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+.photo__perfil img {
+  max-height: 11.5rem;
+}
+.sobre__Mmaravilhosa p{
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
 
 /* --- FOOTER --- */
 
@@ -346,25 +379,44 @@ li {
     margin: 0 16px;
   }
 
-  .principal {
-    max-width: 650px;
-  }
+  
 
   .principal__titulo {
-    font-size: 26px;
-    padding: 40px 200px 0px px;
-  }
-  
-  .principal__sub {
-    font-size: 18px;
-    padding: 0px 400px 0px 0px;
+    font-size: 50px;
+
   }
 
-  .maravilhosas__perfil a img {
-    width: 280%;
-    border-radius: 10px;
+  main h1{
+    font-size: 2.5rem;
   }
-
-
+  .photo__perfil img {
+    max-height: 18.5rem;
+  }
+  .sobre__autora p {
+    font-size: 2.1rem;
+    line-height: 2.5rem;
+  }
+  .sobre__Mmaravilhosa h2{
+    font-size: 2.5rem;
+  }
+  .sobre__Mmaravilhosa p{
+    font-size: 2.1rem;
+    line-height: 2.5rem;
+  }
+  .outras__maravilhosas h2{
+    font-size: 2.5rem;
+  }
+  .nome__maravilhosa{
+    font-size: 2rem;
+    padding-top: 1rem;
+  }
+  .img__maravilhosa img{
+    height: 23rem;
+  }
+  .botao a{
+    font-size: 1.5rem;
+    padding: 1rem;
+    max-width: 315px;
+  }
 }  
 
