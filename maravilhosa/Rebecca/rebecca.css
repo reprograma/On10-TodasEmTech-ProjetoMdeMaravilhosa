@@ -1,30 +1,31 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    margin: 0;
-    text-decoration: none;
-    color: inherit;
+  box-sizing: border-box;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+  /* padding: 20px; */
+  /* display: -webkit-inline-box; */
+}
+
+p.maravilhosa__texto {
+    /* display: block; */
 }
 
 ul {
-    padding: 0;
+  padding: 0;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
-/* define que as imagens tem que ter o tamanho máximo da div mãe */
+/* define que as imagens tem que ter o tamanho maximo da div mãe */
 .img-responsive {
-  width: 100%;
+width: 100%;
 }
 
-/* define o tamanho da caixa */
-.container {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 960px;
-}
+
 
 /* --- Mobile First--- */
 
@@ -65,12 +66,180 @@ li {
   border-radius: 2px;
 }
 
-/* --- BOTAO --- */
+
+/* HEADER  --- HEADER  --- HEADER */
+
+.header {
+  min-height: 40px;
+  min-width: 300px;
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(rgba(170, 82, 170, 0.2), rgba(158, 85, 158, 0.2)), url(../../maravilhosa/Rebecca/img/bg-banner-rebecca.png);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  display: flex;
+  text-align: center;
+  color: white;
+  align-content: flex-end;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-size: cover;
+}
+
+
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.container {
+}
+
+.principal {
+  margin-bottom: 20px;
+}
+
+
+.header_titulo {
+  text-transform: uppercase;
+  font-size: 32px; 
+  font-weight: 900;
+}
+
+.header_subtitulo {
+  font-weight: 300;
+  margin: 32px 0 48px 0; 
+  font-size: 1.5rem;
+}
+
+
+.maravilhosa {
+  align-items: center;
+}
+
+.maravilhosa__titulo {
+ text-align: center;
+ /* font-size: 20px; */
+ padding: 10px;
+ color: #674582;
+}
+
+.maravilhosa_container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  /*text-align: left;
+  margin: 20px;*/
+  flex-direction: column;
+  /* align-content: center; */
+  align-items: center;
+}
+
+
+.maravilhosa__imagem {
+  width: 160px;
+  height: 160px;
+  border-radius: 10px;
+  display: block;
+}
+
+
+.maravilhosa__texto {
+ padding: 10px;
+ font-size: 14px;
+ /* text-align: left; */
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.caixa__borda {
+  align-items: center;
+  border: 1px solid #674582;
+  margin: 30px;
+}
+
+.caixa__texto {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 30px;
+  text-align: center;
+  color: #674582;
+}
+
+
+
+.historia {
+  text-align: left;
+  font-size: 1.0rem;
+  margin: 40px 20px;
+  text-align: center;
+}
+
+.historia {}
+
+.historia {}
+
+.historia_titulo {
+  text-align: center;
+  color: #674582;
+  font-size: 24px;
+  margin-left: 15px;
+}
+
+.historia__texto {
+  padding: 15px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.historia__imagem {
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.referencia {
+  margin-left: 20px;
+  text-align: -webkit-center;
+  font-size: x-small;
+}
+
+.autora {
+  background: #E4B7E5;
+}
+
+.autora__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.autora__img {
+  width: 120px;
+  height: 120px;
+  margin-left: 15px;
+}
+
+.autora__links {
+  display: block;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #674582;
+}
+
 
 .btn {
   text-transform: uppercase;
   font-weight: bold;
-  padding: 16px ;
+  padding: 12px 4px;
   border-radius: 5px;
   font-size: 14px;
 }
@@ -82,54 +251,29 @@ li {
   max-width: 200px;
   text-align: center;
   transition: all .5s;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .btn_roxo:hover,
 .btn_roxo:focus {
-  transform: translateY(-06px);
-  box-shadow: 0 10px 10px rgba(0,0,0,.2);
+  transform: translateY(-1rem);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
   background-color: rgb(192, 156, 188);
+}
+
+.btn_roxo:active {
+  transform: translateY(-.5rem);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
 }
 
 .btn_center {
   margin: 0 auto;
 }
 
-/* HEADER  --- HEADER  --- HEADER */
-
-.header {
-  min-height: 40px; 
-  height: 500px;
-  background: linear-gradient(rgba(255, 0, 255, 0.2),
-                              rgba(255, 0, 255, 0.2)),
-            url(../imagens/bg-banner-claro.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
-  color: white;
+.footer {
+  background: #323534;
+  color: #F3F3F3;
 }
-
-.principal {
-  margin-bottom: 20px;
-}
-
-.principal__titulo {
-  text-transform: uppercase;
-  font-size: 22px;
-  font-weight: 900;
-}
-
-.principal__sub {
-  font-weight: 300;
-  margin: 10px 0 16px 0;
-  font-size: 18px;
-  
-}
-
-/* --- FOOTER --- */
 
 .rodape {
   background-color: #323534;
@@ -180,4 +324,216 @@ li {
 }
 
 
+@media (min-width: 650px) {
+  /* --- NAV --- */
+  .navegacao__itens {
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+  }
 
+  .navegacao__nav { 
+    color: #fff;
+    margin-bottom: 0;
+  }
+    
+  .navegacao__itens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+    
+    .navegacao__itens li {
+    font-size: 14px;
+    margin: 0 9px;
+  }
+    
+  .navegacao__itens.ativo {
+    display: block;
+    right: 0;
+    top: 85px;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 48px 0;
+    transition: right 1s;
+  }
+
+  .navegacao__itens li > a {
+    transition: all .2s;
+  }
+
+  .navegacao__itens li > a:hover {
+    color: #C083B9;
+  }
+    
+  .navegacao__menu-hamburguer {
+    display: none;
+  }
+
+.header {
+    min-height: 50vh;
+    text-align: left;
+    padding: 70px 150px;
+  }
+
+  .principal__titulo {
+    font-size: 48px;
+  }
+  
+  .principal__sub {
+    font-size: 30px;
+  }
+
+  .principal__btn {
+    margin: 0;
+  }
+
+  .rodape {
+    padding-top: 0;
+  }
+
+  .rodape__principal {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .rodape__logo img {
+  max-width: 300px;
+  }
+
+  .rodape__navegacao > li {
+   font-size: 14px;
+  }
+
+  .rodape__redes-sociais img {
+    max-width: 32px;
+    margin-right: 8px;
+  }
+
+}
+
+/* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- --- DESKTOP---   */
+
+@media (min-width: 900px) {
+  .navegacao__box {
+    max-width: 80%;
+  }
+
+  .header {
+    min-height: 50vh;
+    /*text-align: left;
+    padding: 80px 160px;*/
+  }
+
+  .navegacao__itens li {
+   font-size: 18px;
+    margin: 0 16px;
+  }
+
+  .principal {
+    max-width: 650px;
+  }
+
+  .maravilhosa {
+    margin: 40px;
+    margin-left:13vh;
+    margin-right:13vh
+    ;
+    align-items: center;
+  }
+
+  .maravilhosa__titulo {
+    text-align: center;
+    font-size: 30px;
+    color: #674582;;
+  }
+
+  .maravilhosa_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px;
+    flex-direction: row;
+  }
+
+  .maravilhosa__imagem{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+  }
+
+  .maravilhosa__texto {
+    padding: 25px;
+    font-size: 16px;
+  }
+
+  .box {
+      display: flex;
+      align-items: center;
+  }
+
+  .caixa__borda {
+    align-items: center;
+    border: 1px solid #674582;
+    margin: 30px;
+  }
+
+  .caixa__texto {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #674582;
+  }
+
+  .historia {
+    text-align: left;
+    font-size: 0.9rem;
+    margin: 40px 20px;
+    text-align: center;
+  }
+
+  .historia_titulo {
+    text-align: center;
+    color: #674582;
+    font-size: 24px;
+    margin-left: 15px;
+  }
+  
+  .historia__texto {
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  
+.historia__imagem {
+  max-width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+  .autora__img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .autora__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .autora__links {
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+    color: #674582;
+  }
+
+}  
