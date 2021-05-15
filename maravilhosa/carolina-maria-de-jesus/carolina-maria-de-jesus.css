@@ -164,7 +164,7 @@ li {
     margin: 20px;
     font-size: 8px;
     font-weight: bold;
-    line-height: 15px;
+    line-height: 35px;
 }
 
 .subtitulo_historia_maravilhosa{
@@ -417,16 +417,16 @@ li {
     line-height: 30px;
   }
   .section{
-    margin-left: 230px;
-    margin-right: 230px;
+    margin-left: 280px;
+    margin-right: 280px;
   }
   .imagem_perfil {
     width: 160px;
     height: 160px;
  }
  .div_conteudo_resumo_maravilhosa{
-   margin-right: 60px;
-   margin-left: 60px;
+   margin-right: 15px;
+   margin-left: 15px;
  }
  .img_historia_maravilhosa{
    height: 360px;
