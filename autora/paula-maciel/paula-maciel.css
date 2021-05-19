@@ -1,0 +1,531 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+  }
+  
+  ul {
+  padding: 0;
+  }
+  
+  li {
+  list-style: none;
+  }
+  
+  /* define que as imagens tem que ter o tamanho máximo da div mãe */
+  .img-responsive {
+  width: 100%;
+  }
+  
+  /* define o tamanho da caixa */
+  .container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  }
+  
+  /* --- Mobile First--- */
+  
+  /* NAV  --- NAV  --- NAV */
+  @media (max-width: 767px) {
+
+  .h3-desktop {
+    display: none;
+  }
+  
+  .navegacao {
+  background-color: #674582;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+  padding: 24px;
+  z-index: 99; 
+  position: fixed;
+  width: 100%;
+  }
+  
+  .navegacao__logo {
+  max-width: 200px;
+  }
+  
+  .navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 95%;
+  }
+  
+  /* define o tamanho da caixa */
+  .container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  }
+  
+  .navegacao__itens {
+  display: none;
+  }
+  
+  .navegacao__menu-hamburguer img {
+  border-radius: 2px;
+  width: 100%;
+  }
+  
+  /* --- BOTAO --- */
+  
+  .btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px ;
+  border-radius: 5px;
+  font-size: 14px;
+  }
+  
+  .btn_roxo {
+  color: white;
+  background-color: #C083B9;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  transition: all .5s;
+  margin: 0 auto;
+  }
+  
+  .btn_roxo:hover,
+  .btn_roxo:focus {
+  transform: translateY(-06px);
+  box-shadow: 0 10px 10px rgba(0,0,0,.2);
+  background-color: rgb(192, 156, 188);
+  }
+  
+  .btn_center {
+  margin: 0 auto;
+  }
+  
+  /* HEADER  --- HEADER  --- HEADER */
+  
+  .header {
+  height: 16.5em;
+  width: 100%;
+  background: url(./img/background1.png);
+  background-size: 170%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  background-position-x: center;
+  background-position-y: bottom;
+  color: white;
+  }
+  
+  .principal {
+  margin-bottom: 20px;
+  }
+  
+  .principal__titulo {
+  font-size: 18px;
+  font-weight: 900;
+  }
+  
+  .principal__sub {
+  font-weight: 300;
+  margin: 10px 0 16px 0;
+  font-size: 18px;
+  
+  }
+  
+  /* ------ CONTENT ------ */
+  
+  .container2 {
+      display: inline-flex;
+      justify-content: center;
+  }
+  .titulosh3 {
+  padding: 1em;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size:20px;
+  color: #63458A;
+  text-align: center;
+  }
+  .foto-e-texto { 
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 5em;
+  margin-bottom: 2.5em;
+  
+  }
+  .img-210x210-maravilhosa {
+  width: 94px;
+  border-radius: 5px;
+  }
+  .mini-texto-sobre-maravilhosa{
+  width: 40%;
+  margin-left: 2em;
+  font-size: 8px;
+  color: #674582;
+  font-family: 'Montserrat', sans-serif;
+  }
+  
+  hr {
+    width: 12.5em;
+    margin: 0px auto;
+  }
+
+  .longText {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  margin: 0em 5em 1em 5em;
+  }
+
+  .img-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-completa {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/sobre-reprograma.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 6em;
+  margin: 1em 2em;
+  
+  }
+  
+  .caixaAutora {
+    text-align: center;
+  }
+  .caixaAutora img {
+    margin: 1em;
+  }
+  
+  .button1 {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+  }
+  
+  .button2 {
+  background-color: #C083B9;
+  color: #ffffff;
+  width: 13em;
+  height: 2em;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 5px;
+  outline: none;
+  border-style: none;
+  }
+  /* --- FOOTER --- */
+  
+  .rodape {
+  background-color: #323534;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  }
+  
+  .rodape__principal > * {
+  margin: 16px 0;
+  }
+  
+  .rodape__navegacao > li {
+  font-size: 14px;
+  margin: 8px;
+  }
+  
+  .rodape__navegacao a {
+  transition: all .5s;
+  }
+  
+  .rodape__navegacao a:hover {
+  color: #C083B9;
+  }
+  
+  .rodape__logo {
+  max-width: 200px;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .rodape__cc {
+  width: 100%;
+  background-color: #292A2A;
+  font-size: 14px;
+  opacity: 0.5;
+  text-align: center;
+  padding: 10px;
+  }
+
+  .caixaAutoraDesktop {
+    display: none;
+  }
+  
+  }
+  
+  /* ------ DESKTOP ------ */
+  
+  @media screen and (min-width: 1200px) {
+  
+  .h3-mobile {
+    display: none;
+  }
+  
+  /* NAV  --- NAV  --- NAV */
+  
+  .navegacao {
+  background-color: #674582;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+  padding: 24px;
+  z-index: 99; 
+  position: fixed;
+  width: 100%;
+  }
+  
+  .navegacao__logo {
+  max-width: 200px;
+  }
+  
+  .navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  }
+  
+  .navegacao__nav li {
+  display: inline-flex;
+  color: #ffffff;
+  padding: 1em;
+  }
+  
+  /* define o tamanho da caixa */
+  .container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  }
+  
+  .navegacao__itens {
+  display: inline-flex;
+  }
+  
+  .navegacao__menu-hamburguer {
+  display: none;
+  }
+  
+  
+  /* HEADER  --- HEADER  --- HEADER */
+  
+  .header {
+  height: 28em;
+  width: 100%;
+  background: url(./img/background1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  background-position-x: center;
+  background-position-y: bottom;
+  color: white;
+  }
+  
+  .principal {
+  margin-bottom: 20px;
+  }
+  
+  .principal__titulo {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 900;
+  }
+  
+  .principal__sub {
+  font-weight: 300;
+  margin: 10px 0 16px 0;
+  font-size: 18px;
+  
+  }
+  
+  /* ------ CONTENT ------ */
+  
+  .container2 {
+      display: inline-flex;
+      justify-content: center;
+  }
+  .titulosh3 {
+  padding: 1em;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size:35px;
+  color: #63458A;
+  text-align: center;
+  }
+  .foto-e-texto { 
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 5em;
+  margin: 3em 0em;
+  
+  }
+  .img-210x210-maravilhosa {
+  width: 150px;
+  border-radius: 10px;
+  }
+  .mini-texto-sobre-maravilhosa{
+  width: 30%;
+  margin-left: 4em;
+  font-size: 15px;
+  color: #674582;
+  font-family: 'Montserrat', sans-serif;
+  }
+  
+  hr {
+  width: 500px;
+  margin: 0px auto;
+  margin-top: 2em;
+  }
+
+  .suaHistoria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .longText {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  width: 45%;
+  margin: 0em 5em 1em 5em;
+  }
+  
+  .img-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em 0em;
+  }
+  
+  .img-completa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/sobre-reprograma.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 45%;
+  height: 20em;
+  margin: 1em 2em;
+  }
+  
+  .caixaAutora {
+  display: none;
+  }
+
+  .caixaAutoraDesktop {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  }
+
+  .caixaAutoraDesktopImagens img{
+  margin: 0em 5em;
+  }
+
+  .caixaAutoraDesktopLegendas {
+    display: flex;
+    margin-top: 1em;
+  }
+
+  .img-2 {
+    margin: 0em 13em;
+  }
+
+  .button1 {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+  }
+  
+  .button2 {
+  background-color: #C083B9;
+  color: #ffffff;
+  width: 18em;
+  height: 3em;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 5px;
+  outline: none;
+  border-style: none;
+  }
+  /* --- FOOTER --- */
+  
+  .rodape {
+  background-color: #323534;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .rodape__principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  }
+  
+  .rodape__principal > * {
+  margin: 16px 0;
+  }
+  
+  .rodape__navegacao > li {
+  font-size: 14px;
+  margin: 8px;
+  }
+  
+  .rodape__navegacao a {
+  transition: all .5s;
+  }
+  
+  .rodape__navegacao a:hover {
+  color: #C083B9;
+  }
+  
+  .rodape__logo {
+  max-width: 200px;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .rodape__cc {
+  width: 100%;
+  background-color: #292A2A;
+  font-size: 14px;
+  opacity: 0.5;
+  text-align: center;
+  padding: 10px;
+  }
+  
+  }
+  
